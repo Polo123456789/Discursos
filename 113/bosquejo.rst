@@ -141,9 +141,9 @@ Preguntémonos, encajan mis amigos en esta descripción?
 Nosotros tenemos que evitar a aquellos que sean una mala influencia. Como dice
 Romanos 12:2, tenemos que dejar de amoldarnos a este mundo. Todo lo contrario,
 tenemos que buscar amigos que tengan buenos valores y cualidades dignas de
-imitar.
+imitar. Como encontramos a estos amigos?
 
-Ojo, los amigos no solo los encontramos en nuestro rango de edad o nuestro
+Primero, los amigos no solo los encontramos en nuestro rango de edad o nuestro
 circulo social. Pensemos en el ejemplo de Jonatán y David ``[Imagen 1]``, ellos
 tenían bastantes diferencias que pudieran haber impedido que ellos fueran
 amigos.
@@ -159,7 +159,7 @@ amistad (**Lea 1 Samuel 18:1**, Nota: O “el alma de Jonatán quedó ligada al
 alma de David”). Del mismo modo, la edad y nuestros antecedentes no tiene que
 ser un impedimento para que formemos amistades con otros.
 
-Y lo ultimo, este es un camino de doble vía. Nosotros también tenemos que
+Segundo, este es un camino de doble vía. Nosotros también tenemos que
 esforzarnos por cultivar buenas cualidades, así otros que intentan hacer lo
 mismo se sentirán atraídos a nosotros.
 
@@ -289,9 +289,9 @@ como dice *Ecleciastés 9:11*:
 * Ni los sabios tienen siempre alimento
 * Ni los inteligentes tienen siempre riquezas
 
-Y otra idea que es muy importante que tengamos en mente. Hágase esta pregunta:
+Y otra idea que es muy importante que tengamos en mente.
 
-    Tiene sentido construirse un futuro seguro en un mundo inestable
+..  Tiene sentido construirse un futuro seguro en un mundo inestable
     y condenado a la destrucción?
 
 **Lea 1 Juan 2:15-17**
