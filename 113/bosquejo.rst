@@ -4,21 +4,10 @@ Joven, como puedes ser feliz y tener éxito?
 
 **Meta:** Mostrar que los principios de la biblia son sabios y prácticos.
 
-..  Para cuando me estoy preparando
-    ===============================
-
-    - Tratar de buscar experiencias actuales
-
-    Tengo que convertir primero el bosquejo en una explicacion biblica, y luego
-    tomarlo por secciones.
-
-    Piensa en lo siguiente:
-
-    - Qué puntos me ayudarán a transmitir la idea central del discurso?
-    - Cuáles, probablemente, beneficiarán más al auditorio?
-    - Quedarán debilitados los argumentos por la omisión de una cita bíblica
-      y de la idea correspondiente?
-
+.. Canticos:
+    
+    - 135
+    - 25
 
 Como tomar buenas decisiones?
 =============================
