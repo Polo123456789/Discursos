@@ -2,11 +2,10 @@
 title: "50. Como tomar buenas decisiones"
 author: "Pablo Sanchez, Congregacion Pamplona"
 # No es la fecha, pero quiero que salga en ese lugar el cantico asignado
-date: "Cantico X"
+date: "Cantico 4, 'Jehová es mi Pastor' (Salmo 23)"
 ---
 
 <!--
-
 Objetivo del discurso: Destacar la importancia de seguir los principios
 bíblicos para tomar buenas decisiones.
 
@@ -15,14 +14,14 @@ Estructura del discurso:
 1. Introducción
 2. Antes de tomar una decisión
     * Conozcamos las herramientas que tenemos disponibles
+3. Mientras tomamos una decisión
     * No nos apresuremos
     * Busquemos la guía de Jehová en oración
     * Investiguemos a fondo
     * Analicemos nuestros motivos
-3. Luego de tomar una decisión
-4. La decisión más importante
-5. Conclusión
-
+4. Luego de tomar una decisión
+5. La decisión más importante
+6. Conclusión
 -->
 
 ### Jehová Nos Ha Dado Libertad Para Elegir (3 Mins.)
@@ -62,13 +61,13 @@ tomar buenas decisiones.
    * Podremos seguir las leyes de Dios, y conocer los principios que apliquen
      a nuestras situaciones.
 
-2. **Nuestra conciencia:** **Lea Proverbios 2:10, 11**. La conciencia es la
-   capacidad que tenemos que conocernos a nosotros mismos. Nos permite vernos
-   desde afuera y evaluar si lo que hacemos esta bien o mal. Nuestra conciencia
-   es juez, jurado y verdugo.
+2. **Nuestra conciencia:**  La conciencia es la capacidad que tenemos que
+   conocernos a nosotros mismos. Nos permite vernos desde afuera y evaluar si
+   lo que hacemos esta bien o mal. Nuestra conciencia es juez, jurado
+   y verdugo.
 
    Pero la conciencia solo funciona bien si esta bien educada, por lo tanto
-   centrémonos en estudiar y meditar en la biblia.
+   centrémonos en estudiar y meditar en la biblia, **Lea Proverbios 2:10, 11**.
     
 ### ¿Que Pasos Hay Que Seguir ? (10 Mins.)
 
