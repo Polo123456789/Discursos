@@ -3,14 +3,18 @@ title: "10. Seamos Honrados en Todo"
 author: "Pablo Sanchez, Congregacion Pamplona"
 # Es para que salga en una linea aparte en el pdf, le simplifica el trabajo al
 # presidente de la reunion
-date: "Cantico X"
+date: "Cantico 39"
 ---
 
 ¿Valoramos la Honradez Tanto como Dios? (5 mins.)
 =================================================
 
 
-<!-- TODO: Poner una introduccion de mas o menos 3 minutos -->
+> * Informe de la ONU: Un 25% de la inversion publica en el mundo se pierde por
+>   corrupcion.
+> * Con el auge de las inteligencias artificiales, cada vez menos estudiantes
+>   hacen sus propios trabajos.
+> * Las estafas por internet aumentaron en un 70% durante la pandemia.
 
 Siendo la honradez una cualidad tan ausente hoy en día, es de verdad importante
 que los siervos de Dios seamos honrados?
@@ -153,5 +157,7 @@ los tramposos sacan ventaja. Pero tenemos que recordar que:
 Una Forma de actuar que Vale la Pena (4 mins.)
 ==============================================
 
+Resuma porque es dificil ser honrado, y termine con ambos beneficios.
+
 * Tendremos una conciencia tranquila
-* Seremos amigos de Jehová
+* Seremos amigos de Jehová (Proverbios 3:32)

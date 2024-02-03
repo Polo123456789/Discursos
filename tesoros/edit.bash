@@ -5,8 +5,7 @@
 
 if [[ $sourced -eq 0 ]]
 then
-    echo "This script should be sourced"
-    exit 1
+    echo "Script is not sourced, note that the CWD will not change"
 fi
 
 date=$(zenity --calendar --date-format "%Y-%m-%d")
@@ -18,3 +17,17 @@ fi
 
 cd "$date"
 nvim bosquejo.md
+
+file_is_empty=$(cat bosquejo.md | wc -l)
+
+if [[ $file_is_empty -eq 0 ]]
+then
+    read -p "File is empty, delete? [y/n] " delete
+    if [[ $delete == "y" ]]
+    then
+        rm bosquejo.md
+        cd ..
+        rmdir "$date"
+    fi
+
+fi
