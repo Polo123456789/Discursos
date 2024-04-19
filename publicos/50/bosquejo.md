@@ -3,6 +3,7 @@ title: "50. Como tomar buenas decisiones"
 author: "Pablo Sanchez, Congregacion Pamplona"
 # No es la fecha, pero quiero que salga en ese lugar el cantico asignado
 date: "Cantico 4, 'Jehová es mi Pastor' (Salmo 23)"
+geometry: margin=1.5cm
 ---
 
 <!--
