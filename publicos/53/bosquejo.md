@@ -136,7 +136,7 @@ como Jehová.
     * Jehová nos invita a sacar tiempo para adorarle, y también para descansar.
     * Jehová quiere que llevemos una vida sencilla, que coloquemos primero su
       reino. Recordemos que Jesús oro por el pan de cada día, no por la carne
-      de cada día, ni por el caviar de cada día.
+      de cada día, ni por el pan del mes.
     * Si hacemos esto, llevaremos una vida equilibrada, y tendremos una buena
       relación con Dios.
 
