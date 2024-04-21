@@ -1,8 +1,8 @@
 ---
 title: ¿Piensa usted igual que Dios?
 author: Pablo Sanchez, Congregacion Pamplona
-date: Cantico X
-# geometry: left=2cm, right=2cm, top=0.5cm, bottom=0.5cm
+date: Cantico 53
+geometry: left=2cm, right=2cm, top=1cm, bottom=1cm
 ---
 
 <!--
@@ -30,7 +30,7 @@ Estructura del discurso:
 
 -->
 
-### Porque deberíamos pensar igual que Dios? (3 min.)
+## Porque deberíamos pensar igual que Dios? (3 min.)
 
 La forma de pensar de este mundo suele promover el egoísmo, la búsqueda de
 placer, fama, dinero, y poder. Pero, sera que esta forma de ver las cosas esta
@@ -52,7 +52,7 @@ y preferencias. Donde tenemos que tener cuidado es cuando tenemos de decidir si
 algo esta bien o mal. Ahí es donde Jehová quiere que pensemos como el
 y acudamos a la guía que nos da en su palabra.
 
-### Que podemos hacer para pensar igual que Dios? (5 min.)
+## Que podemos hacer para pensar igual que Dios? (5 min.)
 
 Aprendemos lo que Jehová piensa cuando estudiamos su palabra la biblia, pero no
 tiene que ser una lectura superficial. **Lea Salmo 119:97, 104**, énfasis en
@@ -70,7 +70,7 @@ Debemos examinar si nuestra forma de pensar es como la de Jehová. Siguiendo
 este método, veamos tres ejemplos en los que es muy importante que pensemos
 como Jehová.
 
-### Lo que piensa Dios sobre las personas (7 min.)
+## Lo que piensa Dios sobre las personas (7 min.)
 
 1. **Lea Hechos 10:34, 35**. Dios es imparcial.
     * Tenemos que arrancar todo prejuicio de nuestro corazón.
@@ -87,7 +87,13 @@ como Jehová.
     * Tenemos que tener cuidado con nuestras amistades, ya que pueden influir
       en nuestra forma de pensar y actuar.
 
-### Lo que piensa Dios sobre la familia (6 min.)
+\
+\
+\
+\
+
+
+## Lo que piensa Dios sobre la familia (6 min.)
 
 1. **Lea Efesios 5:33**. Los conjugues tienen que mostrarse amor y respeto.
     * Jehová instituyo el matrimonio, y quería que Adán y Eva vivieran felices
@@ -114,11 +120,36 @@ como Jehová.
       como se sienten y lo que piensan. Así sera mas fácil que sus padres les
       entiendan, y formaran una buena comunicación.
 
-### Lo que piensa Dios sobre el trabajo (6 min.)
+## Lo que piensa Dios sobre el trabajo (6 min.)
 
 1. **Lea Salmo 104:24, 31**. Jehová es un excelente trabajador.
-2. **Lea 1 Timoteo 6:8-10**. Tenemos que estar contentos con lo que tenemos.
+    * Jehová creo todo, en el proceso cumpliendo de: Diseñador, Organizador,
+      Artista, Químico, Biólogo, Zoólogo, Geólogo, Astrónomo, Lingüista, etc.
+      Y ademas de todo lo que hizo, hizo una obra de calidad. Una obra con la
+      que el esta contento.
+    * Jehová sigue trabajando hoy en día apoyando a su pueblo.
+    * Nosotros tenemos que seguir su ejemplo, y hacer todo lo posible por ser
+      trabajadores, puntuales y productivos.
+    * Eclesiastés 2:24 "No hay nada mejor para el hombre que comer, beber
+      y disfrutar de su duro trabajo".
+2. **Lea 1 Timoteo 6:8-10**. A Jehová no le gusta que seamos avariciosos.
+    * Jehová nos invita a sacar tiempo para adorarle, y también para descansar.
+    * Jehová quiere que llevemos una vida sencilla, que coloquemos primero su
+      reino. Recordemos que Jesús oro por el pan de cada día, no por la carne
+      de cada día, ni por el caviar de cada día.
+    * Si hacemos esto, llevaremos una vida equilibrada, y tendremos una buena
+      relación con Dios.
 
-### Sigamos adoptando la forma de pensar de Dios (3 min.)
+## Sigamos adoptando la forma de pensar de Dios (3 min.)
 
+*Repase el método y las preguntas*
 
+Recordemos que adoptar la forma de pensar de Jehová es un proceso continuo,
+y difícil. Podemos ayudarnos con nuestras publicaciones, con las reuniones,
+y con el apoyo de otros cristianos maduros.
+
+Si nos esforzamos por seguir pensando como lo hace Dios, vamos a ver buenos
+resultados, y esto puede motivarnos a seguir adelante.
+
+Si nos esforzamos por adoptar la forma de pensar de Dios, nos irá bien en la
+vida y seremos realmente felices.
