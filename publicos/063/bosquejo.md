@@ -51,8 +51,8 @@ que presente el discurso.
 Tenemos espíritu de Evangelizador? (9 min.)
 -------------------------------------------
 
-O traducido a un lenguaje mas moderno: Nos sentimos motivados a predicar?
-A todos nos conviene hacernos esta pregunta.
+O traducido a un lenguaje mas moderno: <mark>Nos sentimos motivados
+a predicar?</mark> A todos nos conviene hacernos esta pregunta.
 
 De donde viene la motivación para predicar?
 
@@ -60,22 +60,22 @@ De donde viene la motivación para predicar?
 
 Gracias a nuestro estudio de la biblia, hemos llegado a conocer a Jehová,
 y a verlo como nuestro amigo. Hemos llegado a apreciar todo lo que hace y hará
-por nosotros, y por lo tanto hemos llegado a amarlo. Reconocemos, como dice
+por nosotros, y por lo tanto hemos llegado a amarlo. <mark>Reconocemos, como dice
 Apocalipsis 4:11, que Jehová es digno de recibir la gloria, la honra y el
-poder.
+poder.</mark>
 
-**Lea Hebreos 13:15[^1]**. Cuando nosotros predicamos, contribuimos a que
-Jehová reciba la gloria que le corresponde.
+**Lea Hebreos 13:15[^1]**. Cuando nosotros predicamos, <mark>contribuimos a que
+Jehová reciba la gloria que le corresponde</mark>.
 
-También contribuimos a limpiar su nombre. Por culpa del Diablo, la gente cree
-que Dios atormenta a los pecadores en el infierno, que es una trinidad
-misteriosa o que no le importan los seres humanos. Muchas personas han llegado
-a la conclusión de que ni siquiera existe. Nuestro amor por Jehová nos lleva
-a derrumbar estas mentiras, y por lo tanto a santificar su nombre.
+<mark>También contribuimos a limpiar su nombre.</mark> Por culpa del Diablo, la
+gente cree que Dios atormenta a los pecadores en el infierno, que es una
+trinidad misteriosa o que no le importan los seres humanos. Muchas personas han
+llegado a la conclusión de que ni siquiera existe. Nuestro amor por Jehová nos
+lleva a derrumbar estas mentiras, y por lo tanto a santificar su nombre.
 
-Jehová desea que todos los seres humanos se salven. Por eso, nos ha dado la
-responsabilidad de llevar las buenas noticias del Reino a todas las naciones.
-Y nuestro amor por el nos impulsa a ser obedientes.
+Jehová desea que todos los seres humanos se salven. <mark>Por eso, nos ha dado
+la responsabilidad de llevar las buenas noticias del Reino a todas las
+naciones</mark>. Y nuestro amor por el nos impulsa a ser obedientes.
 
 [^1]: 15 Por medio de él ofrezcamos siempre a Dios un sacrificio de alabanza,
 es decir, el fruto de nuestros labios, que declaran públicamente su nombre.
@@ -83,8 +83,8 @@ es decir, el fruto de nuestros labios, que declaran públicamente su nombre.
 ### Nuestro amor por las personas
 
 Gracias a nuestro estudio de la biblia, ademas de acércanos a Jehová, al
-aplicar lo que estudiamos vamos desarrollando buenas cualidades, entre ellas la
-compasión.
+aplicar lo que estudiamos <mark>vamos desarrollando buenas cualidades</mark>,
+entre ellas la <mark>compasión</mark>.
 
 Cuando Jesús vino a la tierra, vio que la gente necesitaba desesperadamente
 aprender la verdad del reino. **Lea sin buscar Mateo 9:36[^2]**. Y la situación
@@ -105,11 +105,12 @@ Pensemos en una persona que no conoce esta esperanza:
   problemas.
 
 Cuando nos damos cuenta de que esta es la situación de la mayoría de las
-personas, no sentimos compasión por ellas? No sentimos la necesidad de
-mostrarles la esperanza que nosotros tenemos? Nosotros tenemos el poder de
-ayudarlos a mejorar su vida.
+personas, <mark>no sentimos compasión por ellas</mark>? No sentimos la
+necesidad de mostrarles la esperanza que nosotros tenemos? Nosotros tenemos el
+poder de ayudarlos a mejorar su vida.
 
-No solo mejoramos su vida, sino que la salvamos. **Lea Romanos 10:13-14[^3]**.
+No solo mejoramos su vida, <mark>sino que la salvamos</mark>. **Lea Romanos
+10:13-14[^3]**.
 
 [^3]: 13 Porque “todo el que invoque el nombre de Jehová será salvado”. 14 Sin
 embargo, ¿cómo lo invocarán si no han puesto su fe en él? ¿Y cómo pondrán su fe
@@ -126,18 +127,19 @@ insuperables.
 * El pidió ayuda a Jehová. **Lea Hebreos 5:7[^4]** *Vea la imagen de Jesús
   Orando*
 	* El término ruego se refiere a una súplica especialmente sincera
-	  e intensa; significa implorar ayuda. Notase que esta en plural.
+	  e intensa; <mark>significa implorar ayuda. Notase que esta en
+	  plural</mark>.
 	* El sabia que Jehová le respondería. Antes de venir a la Tierra había
 	  visto a su Padre contestar las oraciones de sus siervos fieles.
-	* Jehová nos responderá cuando le pidamos con fervor que nos dé sabiduría,
-	  valor y fuerzas para aguantar 
+	* <mark>Jehová nos responderá</mark> cuando le pidamos con fervor que nos
+	  dé sabiduría, valor y fuerzas para aguantar 
 * El se fijo en lo que le esperaba. **Lea Hebreos 12:2[^5]**.
-	* El sabia que si aguantaba, santificaría el nombre de su Padre,
-	  re compraría a la humanidad, y tenia la esperanza de ser Rey y Sumo
+	* El sabia que si aguantaba, santificaría el nombre de su Padre, re
+	  compraría a la humanidad, y tenia la esperanza de ser Rey y Sumo
 	  Sacerdote del reino de Dios.
-	* *Vea la imagen de vida en el reino* Igual que Jesús, nosotros
-	  tenemos una "felicidad puesta delante de" nosotros. Si aguantamos,
-	  seremos recompensados con la vida eterna en el reino de Dios.
+	* *Vea la imagen de vida en el reino* Igual que Jesús, nosotros tenemos una
+	  "felicidad puesta delante de" nosotros. Si aguantamos, seremos
+	  recompensados con la vida eterna en el reino de Dios.
 
 [^4]: 7 Durante su vida en la tierra, Cristo ofreció peticiones y ruegos con
 fuertes clamores y lágrimas al que podía salvarlo de la muerte, y fue escuchado
@@ -153,33 +155,34 @@ del trono de Dios.
 Vamos a acompañar a Pablo en su viaje a Roma. Alrededor del año 56, cuando
 Pablo predicaba en el templo de Jerusalén, una multitud trata de matarlo, lo
 presentan ante el sanedrín, una cosa lleva a la otra, y Pablo como ciudadano
-romano apela a Cesar. Ahora ira a Roma a presentar su caso, y ese no es un
-viaje fácil ni seguro.
+romano apela a Cesar. Ahora ira a Roma a presentar su caso, <mark>y ese no es
+un viaje fácil ni seguro</mark>.
 
 * Tuvo la ayuda de Jesús y los ángeles. **Mateo 28:20[^6]**.
-	* La noche luego de ser arrestado, Jesús se le aparece y le dice que el
-	  llegaría a Roma a dar testimonio.
+	* La noche luego de ser arrestado, <mark>Jesús se le aparece</mark> y le
+	  dice que el llegaría a Roma a dar testimonio.
 	* 2 años después, cuando estaba en camino a Roma, se desata una fuerte
-	  tormenta, en la que los prisioneros y marineros piensan que van a morir.
-	  *Vea la imagen de Pablo en el barco*, pero Pablo estaba tranquilo, porque
-	  un ángel se le había aparecido y había reafirmado que llegaría a Roma.
+	  tormenta, en la que los <mark>prisioneros y marineros piensan que van
+	  a morir</mark>. *Vea la imagen de Pablo en el barco*, pero <mark>Pablo
+	  estaba tranquilo</mark>, porque un ángel se le había aparecido y había
+	  reafirmado que llegaría a Roma.
 	* **Lea el texto[^6]**. Podemos afrontar los problemas con la confianza de
 	  que Jesús y los ángeles nos ayudarán.
 * Tuvo la ayuda de sus hermanos **Lea 1 Pedro 4:10[^7]**.
-	* Aristarco y Lucas lo acompañaron en su viaje a Roma, aunque a ellos no se
-	  les había prometido que llegarían a Roma. La compañía de sus hermanos le
-	  dio ánimo y lo ayudó a aguantar.
+	* <mark>Aristarco y Lucas</mark> lo acompañaron en su viaje a Roma, aunque
+	  a ellos no se les había prometido que llegarían a Roma. La compañía de
+	  sus hermanos le dio ánimo y lo ayudó a aguantar.
 	* *Vea la imagen de Pablo siendo recibido por sus hermanos*. Durante el
-	  viaje, el recibió ayuda de sus hermanos en varias ocasiones. Hechos 28:15
-	  dice que “Al verlos, Pablo le dio gracias a Dios y se sintió muy
-	  animado”. El se dio cuenta de que Jehová se estaba valiendo de sus
+	  viaje, el recibió ayuda de sus hermanos en varias ocasiones. <mark>Hechos
+	  28:15 dice que “Al verlos, Pablo le dio gracias a Dios y se sintió muy
+	  animado”</mark>. El se dio cuenta de que Jehová se estaba valiendo de sus
 	  hermanos para ayudarlo.
 	* **Lea el texto[^7]**. Si nos enteramos de que alguien lo está pasando
 	  mal, podemos pedirle a Jehová que nos ayude a decirle unas palabras
 	  amables o a hacer algo por él. Eso puede darle justo el ánimo que
-	  necesita. Podemos ser el medio que Jehová use para ayudar a nuestros
-	  hermanos a aguantar. Y podemos estar seguros de que Jehová usara a otros
-	  para ayudarnos a nosotros.
+	  necesita. <mark>Podemos ser el medio que Jehová use para ayudar
+	  a nuestros hermanos a aguantar</mark>. Y podemos estar seguros de que
+	  Jehová usara a otros para ayudarnos a nosotros.
 
 [^6]: 20 Enséñenles a obedecer todo lo que yo les he mandado. Y, recuerden,
 estaré con ustedes todos los días hasta la conclusión del sistema”.
