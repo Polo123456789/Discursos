@@ -1,5 +1,7 @@
 ---
 title: "¿Tiene usted espiritu evangelizador?"
+author: "Pablo Sanchez, Congregacion Pamplona"
+geometry: left=2cm, right=2cm, top=1cm, bottom=1cm
 ---
 
 <!--
@@ -36,6 +38,8 @@ Estructura del discurso
 Introducción (1 min.)
 ---------------------
 
+Cántico 57. Use el texto en el que se basa el cántico para introducir el tema.
+
 <!--
 Noticias de la semana que pueden servirme. Estas tendran que cambiar cada vez
 que presente el discurso.
@@ -43,9 +47,6 @@ que presente el discurso.
 * Esta semana hubo un intento de golpe de estado por parte del ejercito en
   Bolivia
 -->
-
-TODO: Introducción. Tiene que concluir en que Jehová quiere que llevemos las
-buenas noticias a toda la tierra habitada.
 
 Tenemos espíritu de Evangelizador? (9 min.)
 -------------------------------------------

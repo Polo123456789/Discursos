@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Pablo Sanchez, Congregacion Pamplona" />
+  <title>¿Tiene usted espiritu evangelizador?</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">¿Tiene usted espiritu evangelizador?</h1>
+<p class="author">Pablo Sanchez, Congregacion Pamplona</p>
+</header>
+<!--
+{{{ Notas
+
+Nota al orador: Ayude al auditorio a entender que la obra mas importante que se
+esta llevando a cabo hoy es la evangelizacion. Muestre que centenares de miles
+estan respondiendo a la invitacion de ser evangelizadores de tiempo completo.
+Inste a todos a que emprendan la de tiempo completo si pueden, con la confianza
+de que es obra de evangelizar la voluntad de Jehová y de que el los sostendra
+
+* la obra mas importante que se esta llevando a cabo hoy es la evangelizacion
+* esta obra es la voluntad de Jehová
+* el nos sostendra
+
+Estructura del discurso
+=======================
+
+1. Introducción
+2. Tenemos espiritu de Evangelizador? De donde viene la motivacion para
+   predicar?
+3. Como nos ayuda Jehová a aguantar?
+    * El ejemplo de Jesús
+        * https://wol.jw.org/es/wol/d/r4/lp-s/1102007048
+    * El ejemplo de Pablo
+        * https://wol.jw.org/es/wol/d/r4/lp-s/2020642
+    * Un ejemplo moderno si lo encuentro
+4. Conclusion: Hagamos lo posible por expandir nuestro servicio a Jehová,
+   confiando en que el nos sostendra
+
+}}}
+-->
+<h2 id="introducción-1-min.">Introducción (1 min.)</h2>
+<p>Cántico 57. Use el texto en el que se basa el cántico para introducir
+el tema.</p>
+<!--
+Noticias de la semana que pueden servirme. Estas tendran que cambiar cada vez
+que presente el discurso.
+
+* Esta semana hubo un intento de golpe de estado por parte del ejercito en
+  Bolivia
+-->
+<h2 id="tenemos-espíritu-de-evangelizador-9-min.">Tenemos espíritu de
+Evangelizador? (9 min.)</h2>
+<p>O traducido a un lenguaje mas moderno: Nos sentimos motivados a
+predicar? A todos nos conviene hacernos esta pregunta.</p>
+<p>De donde viene la motivación para predicar?</p>
+<h3 id="nuestro-amor-por-jehová">Nuestro Amor por Jehová</h3>
+<p>Gracias a nuestro estudio de la biblia, hemos llegado a conocer a
+Jehová, y a verlo como nuestro amigo. Hemos llegado a apreciar todo lo
+que hace y hará por nosotros, y por lo tanto hemos llegado a amarlo.
+Reconocemos, como dice Apocalipsis 4:11, que Jehová es digno de recibir
+la gloria, la honra y el poder.</p>
+<p><strong>Lea Hebreos 13:15<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></strong>. Cuando
+nosotros predicamos, contribuimos a que Jehová reciba la gloria que le
+corresponde.</p>
+<p>También contribuimos a limpiar su nombre. Por culpa del Diablo, la
+gente cree que Dios atormenta a los pecadores en el infierno, que es una
+trinidad misteriosa o que no le importan los seres humanos. Muchas
+personas han llegado a la conclusión de que ni siquiera existe. Nuestro
+amor por Jehová nos lleva a derrumbar estas mentiras, y por lo tanto a
+santificar su nombre.</p>
+<p>Jehová desea que todos los seres humanos se salven. Por eso, nos ha
+dado la responsabilidad de llevar las buenas noticias del Reino a todas
+las naciones. Y nuestro amor por el nos impulsa a ser obedientes.</p>
+<h3 id="nuestro-amor-por-las-personas">Nuestro amor por las
+personas</h3>
+<p>Gracias a nuestro estudio de la biblia, ademas de acércanos a Jehová,
+al aplicar lo que estudiamos vamos desarrollando buenas cualidades,
+entre ellas la compasión.</p>
+<p>Cuando Jesús vino a la tierra, vio que la gente necesitaba
+desesperadamente aprender la verdad del reino. <strong>Lea sin buscar
+Mateo 9:36<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></strong>. Y la situación no ha
+cambiado hoy en día.</p>
+<p>Pensemos en una persona que no conoce esta esperanza:</p>
+<ul>
+<li>Si es ambiciosa, puede centrar su vida en el dinero, el poder o la
+fama. Lo mas probable es que nunca lo alcance. Y si lo alcanza, al final
+no le habrá servido de nada. Al morir no puede llevarse nada, y tras
+concluir este sistema de cosas, todo lo que haya logrado se
+perderá.</li>
+<li>Muchas personas, al no ver la solución a sus problemas, hacen todo
+lo posible para desinhibirse y olvidarlos. Recurren a las drogas, el
+alcohol, el sexo, la pornografía, el juego, la comida, etc. Lo que sea
+para no pensar en sus problemas.</li>
+</ul>
+<p>Cuando nos damos cuenta de que esta es la situación de la mayoría de
+las personas, no sentimos compasión por ellas? No sentimos la necesidad
+de mostrarles la esperanza que nosotros tenemos? Nosotros tenemos el
+poder de ayudarlos a mejorar su vida.</p>
+<p>No solo mejoramos su vida, sino que la salvamos. <strong>Lea Romanos
+10:13-14<a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></strong>.</p>
+<h2 id="como-aguantamos-las-dificultades-16-min.">Como aguantamos las
+dificultades? (16 min.)</h2>
+<p>Sabemos que no es fácil, pero las dificultades que afrontemos no son
+insuperables.</p>
+<h3 id="el-ejemplo-de-jesús">El ejemplo de Jesús</h3>
+<ul>
+<li>El pidió ayuda a Jehová. <strong>Lea Hebreos 5:7<a href="#fn4"
+class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></strong> <em>Vea la imagen de Jesús
+Orando</em>
+<ul>
+<li>El término ruego se refiere a una súplica especialmente sincera e
+intensa; significa implorar ayuda. Notase que esta en plural.</li>
+<li>El sabia que Jehová le respondería. Antes de venir a la Tierra había
+visto a su Padre contestar las oraciones de sus siervos fieles.</li>
+<li>Jehová nos responderá cuando le pidamos con fervor que nos dé
+sabiduría, valor y fuerzas para aguantar</li>
+</ul></li>
+<li>El se fijo en lo que le esperaba. <strong>Lea Hebreos 12:2<a
+href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></strong>.
+<ul>
+<li>El sabia que si aguantaba, santificaría el nombre de su Padre, re
+compraría a la humanidad, y tenia la esperanza de ser Rey y Sumo
+Sacerdote del reino de Dios.</li>
+<li><em>Vea la imagen de vida en el reino</em> Igual que Jesús, nosotros
+tenemos una “felicidad puesta delante de” nosotros. Si aguantamos,
+seremos recompensados con la vida eterna en el reino de Dios.</li>
+</ul></li>
+</ul>
+<h3 id="el-ejemplo-de-pablo">El ejemplo de Pablo</h3>
+<p>Vamos a acompañar a Pablo en su viaje a Roma. Alrededor del año 56,
+cuando Pablo predicaba en el templo de Jerusalén, una multitud trata de
+matarlo, lo presentan ante el sanedrín, una cosa lleva a la otra, y
+Pablo como ciudadano romano apela a Cesar. Ahora ira a Roma a presentar
+su caso, y ese no es un viaje fácil ni seguro.</p>
+<ul>
+<li>Tuvo la ayuda de Jesús y los ángeles. <strong>Mateo 28:20<a
+href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></strong>.
+<ul>
+<li>La noche luego de ser arrestado, Jesús se le aparece y le dice que
+el llegaría a Roma a dar testimonio.</li>
+<li>2 años después, cuando estaba en camino a Roma, se desata una fuerte
+tormenta, en la que los prisioneros y marineros piensan que van a morir.
+<em>Vea la imagen de Pablo en el barco</em>, pero Pablo estaba
+tranquilo, porque un ángel se le había aparecido y había reafirmado que
+llegaría a Roma.</li>
+<li><strong>Lea el texto<a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a></strong>. Podemos afrontar los
+problemas con la confianza de que Jesús y los ángeles nos ayudarán.</li>
+</ul></li>
+<li>Tuvo la ayuda de sus hermanos <strong>Lea 1 Pedro 4:10<a href="#fn8"
+class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></strong>.
+<ul>
+<li>Aristarco y Lucas lo acompañaron en su viaje a Roma, aunque a ellos
+no se les había prometido que llegarían a Roma. La compañía de sus
+hermanos le dio ánimo y lo ayudó a aguantar.</li>
+<li><em>Vea la imagen de Pablo siendo recibido por sus hermanos</em>.
+Durante el viaje, el recibió ayuda de sus hermanos en varias ocasiones.
+Hechos 28:15 dice que “Al verlos, Pablo le dio gracias a Dios y se
+sintió muy animado”. El se dio cuenta de que Jehová se estaba valiendo
+de sus hermanos para ayudarlo.</li>
+<li><strong>Lea el texto<a href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></strong>. Si nos enteramos de que
+alguien lo está pasando mal, podemos pedirle a Jehová que nos ayude a
+decirle unas palabras amables o a hacer algo por él. Eso puede darle
+justo el ánimo que necesita. Podemos ser el medio que Jehová use para
+ayudar a nuestros hermanos a aguantar. Y podemos estar seguros de que
+Jehová usara a otros para ayudarnos a nosotros.</li>
+</ul></li>
+</ul>
+<h3 id="un-ejemplo-moderno">Un ejemplo moderno</h3>
+<p>Konstantin Bayenov</p>
+<p>Presente el <a
+href="https://www.jw.org/es/biblioteca/videos/#es/mediaitems/VODIntExpEndurance/pub-jwbcov20_17_VIDEO">video</a>.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Repase el discurso, anime a los hermanos a que hagan lo posible por
+expandir su servicio a Jehová, confiando en que el nos sostendrá.</p>
+<!-- {{{ Vim
+vim: conceallevel=0 : foldmethod=marker: spell: spelllang=es_es :
+}}} -->
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>15 Por medio de él ofrezcamos siempre
+a Dios un sacrificio de alabanza, es decir, el fruto de nuestros labios,
+que declaran públicamente su nombre.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>36 Cuando veía a las multitudes, se
+conmovía profundamente, porque estaban maltratadas y abandonadas como
+ovejas sin pastor.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>13 Porque “todo el que invoque el
+nombre de Jehová será salvado”. 14 Sin embargo, ¿cómo lo invocarán si no
+han puesto su fe en él? ¿Y cómo pondrán su fe en él si no han oído
+hablar de él? ¿Y cómo oirán sin alguien que predique?<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>7 Durante su vida en la tierra,
+Cristo ofreció peticiones y ruegos con fuertes clamores y lágrimas al
+que podía salvarlo de la muerte, y fue escuchado por su temor de Dios.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>2 mientras fijamos la mirada en el
+Agente Principal y Perfeccionador de nuestra fe, Jesús. Por la felicidad
+que fue puesta delante de él, aguantó un madero de tormento sin
+importarle la humillación, y se ha sentado a la derecha del trono de
+Dios.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>20 Enséñenles a obedecer todo lo que
+yo les he mandado. Y, recuerden, estaré con ustedes todos los días hasta
+la conclusión del sistema”.<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>20 Enséñenles a obedecer todo lo que
+yo les he mandado. Y, recuerden, estaré con ustedes todos los días hasta
+la conclusión del sistema”.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>10 Según el don que cada uno haya
+recibido, úsenlo para servirse unos a otros como buenos mayordomos de la
+bondad inmerecida de Dios que se expresa de diversas maneras.<a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>10 Según el don que cada uno haya
+recibido, úsenlo para servirse unos a otros como buenos mayordomos de la
+bondad inmerecida de Dios que se expresa de diversas maneras.<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
