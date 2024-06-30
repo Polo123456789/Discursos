@@ -51,8 +51,8 @@ que presente el discurso.
 Tenemos espíritu de Evangelizador? (9 min.)
 -------------------------------------------
 
-O traducido a un lenguaje mas moderno: <mark>Nos sentimos motivados
-a predicar?</mark> A todos nos conviene hacernos esta pregunta.
+<mark>Nos sentimos motivados a predicar?</mark> A todos nos conviene hacernos
+esta pregunta.
 
 De donde viene la motivación para predicar?
 
@@ -71,11 +71,7 @@ Jehová reciba la gloria que le corresponde</mark>.
 gente cree que Dios atormenta a los pecadores en el infierno, que es una
 trinidad misteriosa o que no le importan los seres humanos. Muchas personas han
 llegado a la conclusión de que ni siquiera existe. Nuestro amor por Jehová nos
-lleva a derrumbar estas mentiras, y por lo tanto a santificar su nombre.
-
-Jehová desea que todos los seres humanos se salven. <mark>Por eso, nos ha dado
-la responsabilidad de llevar las buenas noticias del Reino a todas las
-naciones</mark>. Y nuestro amor por el nos impulsa a ser obedientes.
+lleva a derrumbar estas mentiras, y por lo tanto a glorificar su nombre.
 
 [^1]: 15 Por medio de él ofrezcamos siempre a Dios un sacrificio de alabanza,
 es decir, el fruto de nuestros labios, que declaran públicamente su nombre.
