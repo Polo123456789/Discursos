@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>¿Por qué no hay que presumir?</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">¿Por qué no hay que presumir?</h1>
+</header>
+<p>Los seres humanos con la imperfección hemos heredado malas
+tendencias, entre estas la tendencia a ser orgullosos.</p>
+<p>Una persona orgullosa es una que se cree superior a los demás, ya sea
+por ciertas cualidades, por su posición social, sus estudios, etc.
+Paradojicamente no solo le basta con sentirse superior, sino que también
+necesita que los demás se den cuenta de esto, y que la alaben. Esto
+lleva a la persona orgullosa a presumir.</p>
+<p>Vamos a analizar desde el punto de vista bíblico porque tenemos que
+evitar presumir, y como puede ayudarnos la biblia?</p>
+<h3 id="porque-no-hay-que-presumir">Porque no hay que presumir?</h3>
+<p><strong>Lea Salmos 75:4-5<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></strong>.</p>
+<p>El versículo 4 no puede ser mas claro, “No presuman”.</p>
+<p>Pero contiene otra advertencia, “No ensalcen su poder”. Ensalzar
+nuestro poder significa desarrollar una actitud orgullosa o arrogante.
+La biblia no solo nos advierte contra exteriorizar el orgullo, tenemos
+que autoexaminarnos constantemente para asegurarnos de que no estamos
+desarrollando una actitud orgullosa. Ninguno de nosotros esta libre de
+esto, ya que la biblia nos muestra como siervos fieles del pasado como
+Uzías y Ezequías se volvieron orgullosos.</p>
+<p>Para ayudarnos a entender porque una actitud orgullosa es tan mala,
+veamos a que la compara la biblia. <strong>Lea 1 Timoteo 3:6 <a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></strong>.</p>
+<h3 id="como-evitamos-volvernos-orgullosos">Como evitamos volvernos
+orgullosos?</h3>
+<p><strong>Lea Salmos 75:6-7 <a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a></strong>. Tenemos que
+reconocer que los privilegios que se nos den no son por nuestro propio
+merito, sino que son un regalo de parte de Jehová.</p>
+<p>Sea cual sea el privilegio que se nos de, tenemos que recordar que es
+una dádiva de parte de Jehová. Tenemos que actuar como nos dice Jesús en
+<strong>Lucas 17:10 <a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></strong>.</p>
+<p>Algo mas que tenemos que recordar también las consecuencias que
+tendrán los arrogantes. <strong>Lea Salmos 76:12 <a href="#fn5"
+class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></strong>.</p>
+<h3 id="conclusión">Conclusión</h3>
+<p>Tenemos que tener mucho cuidado, y analizarnos constantemente para
+ver que no nos volvamos orgullosos. Recordemos que todos los privilegios
+vienen de parte de Jehová, y que “No somos mas que esclavos […], solo
+hemos hecho lo que teníamos que hacer”</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>4 Les dije a los arrogantes: “No presuman”. Y a los
+malvados les dije: “No ensalcen su poder. 5 No ensalcen tanto su poder
+ni hablen con arrogancia<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>6 No debe ser un hombre recién convertido, para que no
+se llene de orgullo y reciba la misma condena que recibió el Diablo.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>6 Porque el ensalzamiento no viene ni del este ni del
+oeste ni del sur.7 Porque Dios es el Juez. A uno lo derriba y a otro lo
+ensalza.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>10 De la misma manera, cuando ustedes hayan hecho todo
+lo que les manden hacer, digan: ‘No somos más que esclavos y no
+merecemos nada. Solo hemos hecho lo que teníamos que hacer’”.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>12 Rebajará el orgullo de los líderes; él infunde temor
+en los reyes de la tierra.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
