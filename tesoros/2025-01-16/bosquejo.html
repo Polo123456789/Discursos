@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Nuestro Señor es más grande que todos los demás dioses</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Nuestro Señor es más grande que todos los demás
+dioses</h1>
+</header>
+<p>Nosotros podemos afrontar cualquier situación con confianza, porque
+tenemos la ayuda de un Dios poderoso.</p>
+<p>Nosotros podemos admirar el poder de Dios mediante la creación. El
+hizo todas las cosas y las normas bajo las que se rigen.</p>
+<p>Es interesante que la cita del perspicacia indique que cuando todas
+las cosas siguen las leyes que las gobiernan, esas funciones normales no
+son suficientes para santificar el nombre de Dios frente a la oposición
+ni frente a la adoración falsa. Es razonable esperar que, para probar
+que es el Dios verdadero, Jehová demostrara su control sobre las fuerzas
+creadas</p>
+<p>En <strong>Salmo 135:5-6<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></strong> vemos que no
+solo Dios ha demostrado ese control, sino que son tales sus obras
+poderosas que se le llega a conocer por ellas.</p>
+<p>Jehová ha demostrado ese control de muchas maneras distintas. Gracias
+a el, acontecimientos que no se hubieran considerado extraordinarios en
+si mismos, como sequías o tormentas, adquirían un significado especial
+cuando sucedían en cumplimiento de una profecía.</p>
+<p>Pero nosotros hablaremos hoy de un acontecimiento que fue
+extraordinario, que sin lugar a dudas rompió con esas normas
+establecidas, y demostró el poder de Jehová. Hablaremos de cuando
+dividió el mar rojo.</p>
+<p><strong>Éxodo 14:29-31<a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></strong>. “Y las aguas formaban un
+muro a su derecha y otro a su izquierda”. Rompió con todas las leyes de
+la naturaleza y demostró su poder.</p>
+<p>Este relato se escogió no solo porque demuestra el gran poder de
+Dios, sino porque también destaca algo muy importante. Jehová usa su
+poder para proteger a sus siervos (<strong>Lea Salmo 135:14<a
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></strong>). Lo demostró repetidas
+veces con los Israelitas, y lo sigue demostrando hoy con nosotros.</p>
+<p>Y Jehová también muestra un interés especial por el sufrimiento de
+cada uno de sus siervos (<strong>Lea Salmo 136:23<a href="#fn4"
+class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></strong>)</p>
+<blockquote>
+<p>Saber que siempre podemos contar con el apoyo de Dios nos ayuda a
+recordar dos bendiciones de las que disfrutamos. Primero, que sin
+importar dónde vivamos tenemos un lugar seguro en el que refugiarnos. Y,
+segundo, que a nuestro amoroso Padre celestial le importamos
+muchísimo.</p>
+</blockquote>
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>5 Porque yo sé muy bien que Jehová es
+grande; nuestro Señor es más grande que todos los demás dioses. 6 Jehová
+hace todo lo que desea hacer en el cielo y en la tierra, en los mares y
+en todas las profundidades.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>29 En cambio, los israelitas cruzaron
+el fondo del mar caminando sobre tierra seca. Y las aguas formaban un
+muro a su derecha y otro a su izquierda. 30 Así fue como Jehová salvó
+ese día a Israel de las manos de los egipcios, e Israel vio los
+cadáveres de los egipcios en la orilla del mar. 31 Israel también vio el
+gran poder que Jehová usó contra los egipcios. De modo que el pueblo
+empezó a temer a Jehová y a poner su fe en Jehová y en su siervo
+Moisés.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>14 Porque Jehová <mark>defenderá a su
+pueblo</mark> y sentirá compasión por sus siervos.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>23 Se acordó de nosotros cuando
+estábamos hundidos, porque su amor leal dura para siempre.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
