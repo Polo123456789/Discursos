@@ -1,312 +1,250 @@
 ---
 title: Joven, como puedes ser feliz y tener éxito?
 author: Pablo Sanchez, Congregacion Pamplona
-# O el 25
-date: Cantico 135
+date: Cantico 135 o 25
 geometry: margin=2cm
 ---
 
 **Meta:** Mostrar que los principios de la biblia son sabios y
 prácticos.
 
-### Como tomar buenas decisiones? `(6 Minutos)`
+Como tomar buenas decisiones? `(6 Minutos)`
+-------------------------------------------
 
-Experiencia de Donald Williams:
+Donald Williams: Padres separados. Su madre era de escasos recursos, así que el
+soñaba con hacerse rico para poder ayudarla:
 
-Padres separados. Su madre era de escasos recursos, así que el soñaba
-con hacerse rico para poder ayudarla.
-
-> Como mi padre quería que yo triunfara en la vida, hizo los
-> preparativos para que conociera una prestigiosa universidad. Me
-> encantó y me inscribí.
+> Como mi padre quería que yo triunfara en la vida, hizo los preparativos para
+> que conociera una prestigiosa universidad. Me encantó y me inscribí.
 >
-> Para cuando tenía 22 años, ya era el asistente del vicepresidente de
-> un hotel y casino. Los demás me consideraban rico y exitoso.
-> Disfrutaba de la mejor comida y de los vinos y los licores más
-> costosos.
+> Para cuando tenía 22 años, ya era el asistente del vicepresidente de un hotel
+> y casino. Los demás me consideraban rico y exitoso. Disfrutaba de la mejor
+> comida y de los vinos y los licores más costosos.
 
 Pero
 
 > Como parte de mi trabajo, tenía que atender a hombres y mujeres
-> multimillonarios que iban a Las Vegas a apostar. Tenían muchísimo
-> dinero, pero no se veían felices. La verdad es que yo tampoco me
-> sentía tan feliz.
+> multimillonarios que iban a Las Vegas a apostar. Tenían muchísimo dinero, pero
+> no se veían felices. La verdad es que yo tampoco me sentía tan feliz.
 
-Al ver experiencias como esta nos preguntamos: Si el - que llego al
-éxito - no era feliz, que esperanza tengo yo? Que puedo hacer para ser
-feliz?
+Si el - que llego al éxito - no era feliz, que esperanza tengo yo?
 
-Si quieres ser feliz en el futuro, tienes que tomar buenas decisiones
-ahora. Y como tomo buenas decisiones?
+Si quieres ser feliz en el futuro, tienes que tomar buenas decisiones ahora.
+Esto lo hacemos siguiendo la guía del creador.
 
-Lo mejor que puedes hacer es seguir la guía que nos da Dios (**Lea
-Ecleciastés 11:9**, mantenga la biblia abierta).
+Dios quiere que nosotros seamos felices, **Lea Eclesiastés 11:9[^1]**.
 
--   \"disfruta de tu juventud\": Jehová quiere que seas feliz. En al
-    juventud uno tiene fuerzas, energías, y el deseo de hacer cosas. Y
-    Jehová quiere que tu la aproveches.
+-   "disfruta de tu juventud": Jehová quiere que aprovechemos esta etapa de
+    nuestra vida.
+-   "el Dios verdadero te llamará a juicio por todo eso": **Cite Gálatas 6:7[^2]**.
+    Muchos jóvenes tienen conductas que pueden hacerles daño a futuro, como
+    emborracharse, tener muchas parejas sexuales, o usar drogas.
 
--   \"que sepas que el Dios verdadero te llamará a juicio por todo
-    eso\": Tenemos que tener presentes las palabras de Gálatas 6:7.
-    Muchos jóvenes tienen conductas que pueden hacerles daño a futuro:
+Tenemos que disfrutar, pero con medida. Y tenemos que hacer algo mas **Lea
+Eclesiastés 12:1[^3]** "Acuérdate de tu gran creador en tu juventud". Así seremos
+sabios, y Jehová nos bendecirá (**Lea Salmos 37:5 [^4]**).
 
-    > -   Emborracharse
-    > -   Tener muchas parejas sexuales
-    > -   Utilizar drogas ilegales
+En este discurso veremos 3 áreas en las que acordarnos de nuestro creador es
+beneficioso para nosotros. Y luego veremos que otras cosas podemos hacer para
+asegurarnos un futuro feliz.
 
-Entonces, que tenemos que hacer? Ecleciastés 12:1 \"Acuérdate de tu gran
-creador en tu juventud\". Si tomamos a Dios en cuenta en nuestras
-decisiones, actuaremos con sabiduría. El actuar con sabiduría hará que
-Dios te bendiga (**Lea Salmos 37:5**).
+[^1]: 9 Joven, disfruta de tu juventud, y que tu corazón esté feliz mientras
+seas joven. Sigue los caminos de tu corazón y vete adonde te lleven tus ojos.
+Pero quiero que sepas que el Dios verdadero te llamará a juicio por todo eso.
 
-En este discurso veremos 3 áreas en las que acordarnos de nuestro
-creador es beneficioso para nosotros. Y luego veremos que otras cosas
-podemos hacer para asegurarnos un futuro feliz.
+[^2]: 7 No se engañen: nadie puede burlarse de Dios. Porque <mark>lo que uno esté
+sembrando es lo que cosechará.</mark>
 
-### Cuando elijas a tus amigos `(6 Minutos)`
+[^3]: 1 Acuérdate de tu Gran Creador en tu juventud, antes de que vengan los
+días angustiosos y lleguen los años en que vas a decir: “No encuentro en ellos
+ningún placer”;
 
-Idea clave a recordar: **Proverbios 13:20**
+[^4]: 5 Pon tu camino en manos de Jehová; confía en él, y él actuará a tu favor
 
-> El que anda con los sabios se hará sabio, pero el que se junta con los
-> insensatos acabará mal.
+Cuando elijas a tus amigos `(6 Minutos)`
+----------------------------------------
 
-Nosotros tenemos que buscarnos amigos que nos hagan sabios. Como sabemos
-si nuestros amigos son una buena influencia para nosotros?
+**Lea Proverbios 13:20[^5]**
+
+[^5]: 20 El que anda con los sabios se hará sabio, pero el que se junta con los
+insensatos acabará mal.
+
+Como sabemos si nuestros amigos son una buena influencia para nosotros?
 
 Jóvenes preguntan, Vol. 1, Cómo son los buenos amigos?
 
-> En tu camino hacia la vida adulta, te hacen falta amigos que:
->
-> 1)  Tengan buenas cualidades.
-> 2)  Se guíen por principios morales elevados.
-> 3)  Sean una influencia positiva para ti.
-
-Preguntémonos, encajan mis amigos en esta descripción?
-
 1.  Buenas cualidades
-
-    > -   **Lea Gálatas 5:22, 23**
-    > -   Tienen mis amigos las cualidades que componen el fruto del
-    >     espíritu?
-
+    -   **Lea Gálatas 5:22, 23[^6]**
+    -   Tienen mis amigos las cualidades que componen el fruto del espíritu?
 2.  Principios morales elevados
-
-    > -   Temes que tus amigos te presionen para hacer algo que sabes
-    >     que está mal?
-    > -   Evitas presentárselos a tus padres porque crees que no les van
-    >     a gustar?
-
+    -   Temes que tus amigos te presionen para hacer algo que sabes que está
+        mal?
+    -   Evitas presentárselos a tus padres porque crees que no les van a gustar?
 3.  Influencia positiva
+    -   Cambias tu forma de vestir, hablar o actuar solo para complacer a tus
+        amigos?
+    -   Vas a sitios no muy recomendables solo porque ellos van?
 
-    > -   Cambias tu forma de vestir, hablar o actuar solo para
-    >     complacer a tus amigos?
-    > -   Vas a sitios no muy recomendables solo porque ellos van?
+[^6]: 22 Por otra parte, el fruto del espíritu es amor, felicidad, paz,
+paciencia, amabilidad, bondad, fe, 23 apacibilidad, autocontrol. No hay ley en
+contra de esas cosas.
 
-Nosotros tenemos que evitar a aquellos que sean una mala influencia.
-Como dice Romanos 12:2, tenemos que dejar de amoldarnos a este mundo.
-Todo lo contrario, tenemos que buscar amigos que tengan buenos valores y
-cualidades dignas de imitar. Como encontramos a estos amigos?
+Evitemos a quienes son una mala influencia, **cite Romanos 12:2[^7]**, y busquemos
+amigos con cualidades dignas de imitar. Como encontramos a estos amigos?
 
-Primero, los amigos no solo los encontramos en nuestro rango de edad o
-nuestro circulo social. Pensemos en el ejemplo de Jonatán y David
-`[Imagen 1]`, ellos tenían bastantes diferencias que pudieran haber
-impedido que ellos fueran amigos.
+[^7]: 2 Y <mark>dejen de amoldarse a este sistema</mark>; más bien,
+transfórmense renovando su mente, para que comprueben por ustedes mismos cuál
+es la buena, agradable y perfecta voluntad de Dios.
+
+No tenemos que ser cerrados, podemos encontrar buenos amigos en personas de
+cualquier edad, o antecedente social. Pensemos en el ejemplo de Jonatán y David
+`[Imagen 1]`, ellos no podían ser mas diferentes:
 
 -   Jonatán tenia unos 30 años mas que David
--   Jonatán hubiera sido el heredero al trono, pero Jehová ungió a David
-    para que fuera rey.
--   Jonatán ya era un hábil arquero y un valiente guerrero, David recién
-    había derrotado a Goliat. Ambos podrían haber presumido.
+-   Jonatán hubiera sido el heredero al trono, pero Jehová ungió a David para
+    que fuera rey.
+-   Jonatán ya era un hábil arquero y un valiente guerrero, David recién había
+    derrotado a Goliat. Ambos podrían haber presumido.
 
-Pero ninguno de estos factores evito que entre ellos se formara una
-fuerte amistad (**Lea 1 Samuel 18:1**, Nota: O "el alma de Jonatán quedó
-ligada al alma de David"). Del mismo modo, la edad y nuestros
-antecedentes no tiene que ser un impedimento para que formemos amistades
-con otros.
+**Lea 1 Samuel 18:1[^8]**. Del mismo modo, la edad y nuestros antecedentes no tiene
+que ser un impedimento para que formemos amistades con otros.
+
+[^8]: En cuanto David terminó de conversar con Saúl, surgió una gran amistad
+entre Jonatán y David, y Jonatán empezó a quererlo como a sí mismo.
 
 Segundo, este es un camino de doble vía. Nosotros también tenemos que
-esforzarnos por cultivar buenas cualidades, así otros que intentan hacer
-lo mismo se sentirán atraídos a nosotros.
+esforzarnos por cultivar buenas cualidades, así otros que intentan hacer lo
+mismo se sentirán atraídos a nosotros.
 
-En resumen: Si somos selectivos, no limitamos el grupo donde buscamos, y
-nos esforzarnos por cultivar buenas cualidades. Encontraremos amigos
-verdaderos, como los que se describen en Proverbios 18:24
+En resumen: Si somos selectivos, no limitamos el grupo donde buscamos, y nos
+esforzarnos por cultivar buenas cualidades. Encontraremos amigos verdaderos,
+como los que se describen en **Proverbios 18:24[^9], cite.**
 
-> Hay un amigo que se apega más que un hermano
+[^9]: 24 Hay compañeros listos para destrozarse el uno al otro, pero <mark>hay
+un amigo que se apega más que un hermano.</mark>
 
-### Cuando tomes decisiones sobre el sexo `(7 Minutos)`
+Cuando tomes decisiones sobre el sexo `(7 Minutos)`
+---------------------------------------------------
 
 Si bien las relaciones sexuales son un regalo de Dios, este es un regalo
-dedicado a las personas casadas. Por lo tanto, es un regalo al que
-tenemos que tenerle respeto.
+dedicado a las personas casadas. Por lo tanto, es un regalo al que tenemos que
+tenerle respeto.
 
-**Lea 1 Tesalonicenses 4:3**, \"se abstengan de la inmoralidad sexual\".
+**Lea 1 Tesalonicenses 4:3[^10]**, "se abstengan de la inmoralidad sexual".
 
-Un ejemplo excelente que podemos imitar es el de José. Mantenga la
-biblia abierta en Génesis 39.
+[^10]: 3 Esta es la voluntad de Dios: que sean santos y se abstengan de la
+inmoralidad sexual.
 
-Contexto: Los hermanos de José lo habían vendido como esclavo a
-mercaderes Ismaelitas. Ellos lo vendieron a Potifar, jefe de la guardia
-del faraón y funcionario de la corte. Como Jehová bendijo a José, a el
-le fue bien, hasta el punto de que Potifar lo puso a cargo de toda su
-casa. Pero se le presenta una tentación\...
+Un ejemplo excelente que podemos imitar es el de José. Mantenga la biblia
+abierta en Génesis 39[^11].
 
-**Versículo 7:** José se enfrenta a una difícil situación, la esposa de
-su amo, que ha de tener cierta autoridad sobre el, le esta pidiendo que
-se acueste con ella. Como responde José?
+**Versículo 7:** José se enfrenta a una difícil situación
 
-**Versículos 8 y 9:** José responde con decisión y firmeza. Pero como
-vemos en el versículo 10, la tentación se presento varias veces, y José
-siempre la rechazo. Pero la esposa de Potifar era una mujer terca, y no
-iba a aceptar un no por respuesta.
+**Versículos 8 y 9:** José responde con decisión y firmeza. Pero la esposa de
+Potifar era una mujer terca, y no iba a aceptar un no por respuesta.
 
 `[Imagen 2]`
 
-**Versículos 11 y 12:** José actúa con decisión, sin pensarlo 2 veces
-sale corriendo de la casa. No le importo dejar la prenda de vestir en
-manos de la esposa de Potifar, ni le importo las consecuencias que esto
-podría tener después. En ese momento lo único que le importaba era
-mantener intacta su relación con Dios. Esta claro que José era una
-persona de firmes valores morales.
+**Versículos 11 y 12:** José actúa con decisión, sin pensarlo 2 veces sale
+corriendo de la casa.En ese momento lo único que le importaba era mantener
+intacta su relación con Dios.
 
-Puede que nosotros nos enfrentemos en algún momento a alguna tentación
-similar, ya que este mundo esta plagado por la inmoralidad sexual. Ya
-sea compañeros de colegio, universidad, trabajo, o en el Internet, a
-nosotros se nos pueden presentar tentaciones. Como podemos imitar a
-José? Podemos ver en su ejemplo que para resistir necesitamos 2 cosas:
+[^11]: 7 Entonces la esposa de su amo empezó a fijarse en José y a decirle:
+“Acuéstate conmigo”. 8 Pero él se negaba y le decía a la esposa de su amo:
+“Mira, mi amo no se preocupa de nada de la casa porque me tiene a mí, y me ha
+confiado todo lo que tiene. 9 No hay nadie con más autoridad que yo en esta
+casa. Y él ha puesto todo a mi disposición excepto a ti, porque eres su esposa.
+Así que ¿cómo podría yo hacer algo tan malo y de hecho pecar contra Dios?”.
+10 Ella insistía día tras día, pero José nunca aceptaba acostarse con ella ni
+quedarse con ella. 11 Sin embargo, uno de los días en que entró en la casa
+a hacer su trabajo no había ningún sirviente dentro. 12 Entonces ella lo agarró
+por la ropa y le dijo: “¡Acuéstate conmigo!”. Pero él salió huyendo y dejó su
+ropa entre las manos de ella.
 
-1.  Autodominio (1 Tesalonicenses 4:4)
+Nosotros enfrentaremos tentaciones también, ya que este mundo esta plagado por
+la inmoralidad sexual. Como podemos imitar a José?
+
+1.  Autodominio (**Lea 1 Tesalonicenses 4:4[^12]**).
 2.  Un fuerte deseo de complacer a nuestro creador.
 
-José tenía deseos sexuales, como podemos tenerlos nosotros, pero jamás
-se le pasó por la cabeza satisfacerlos ofendiendo a su Creador. Tengamos
-claro que si pasamos por alto las normas morales de la Biblia,
-ofenderemos a Dios y con el tiempo sufriremos. Así que, esforcémonos por
+[^12]: 4 Cada uno de ustedes debe saber controlar su propio cuerpo para
+mantenerlo santo y honorable,
+
+José tenía deseos sexuales, como podemos tenerlos nosotros, pero jamás se le
+pasó por la cabeza satisfacerlos ofendiendo a su Creador. Esforcémonos por
 adquirir y conservar los mismos valores que tenía José.
 
-Recordemos, no estamos solos. Podemos pedirle ayuda a nuestros padres, a
-amigos maduros espiritualmente y a los ancianos de la congregación.
+Recordemos, no estamos solos, contamos con nuestros padres y los ancianos.
 
-Si tomas buenas decisiones sobre el sexo, conservarás tu autoestima,
-protegerás tu futuro y agradarás a Dios
+Si tomas buenas decisiones sobre el sexo, conservarás tu autoestima, protegerás
+tu futuro y agradarás a Dios
 
-### Cuando te pongas metas `(6 Minutos)`
+Cuando te pongas metas `(6 Minutos)`
+------------------------------------
 
-Este mundo tiene sus metas muy claras. Aunque varían los caminos que
-ofrece, siempre tratan de que culminen en:
+Este mundo siempre va detrás de el dinero, el prestigio, y el poder.
 
--   Fama
--   Dinero
--   Ambos
+Pero cual es el resultado de ir tras esas cosas? (**Lea Eclesiastés 5:10[^13]**)
 
-Pero cual es el resultado de ir tras esas cosas? (**Lea Ecleciastés
-5:10**)
+[^13]: 10 El que ama el dinero nunca estará satisfecho con su dinero, ni el que
+ama la riqueza, con sus ingresos. Eso también es en vano.
 
 De la experiencia de Donald Williams:
 
-> De hecho, mientras más dinero ganaba, más estresado me sentía y más me
-> costaba dormir. Empecé a preguntarme si valía la pena seguir viviendo.
+> De hecho, mientras más dinero ganaba, más estresado me sentía y más me costaba
+> dormir. Empecé a preguntarme si valía la pena seguir viviendo.
 
-Entonces, cual suele ser el resultado de buscar riquezas y prestigio?
-Suele desembocar en que uno termina decepcionado e insatisfecho.
+Buscar riquezas y prestigio suele desembocar en que uno termina decepcionado e
+insatisfecho.
 
-Lo peor de todo es que ni siquiera estamos garantizados a obtener el
-\"éxito\", como dice *Ecleciastés 9:11*:
+Lo peor de todo es que ni siquiera estamos garantizados a obtener el "éxito".
 
--   Los veloces no siempre ganan la carrera
--   Ni los poderosos ganan siempre la batalla
--   Ni los sabios tienen siempre alimento
--   Ni los inteligentes tienen siempre riquezas
+Y otra idea que es muy importante que tengamos en mente se encuentra en **1 Juan
+2:17[^14], léalo**
 
-Y otra idea que es muy importante que tengamos en mente.
+-   "*Además, el mundo se está yendo, y sus deseos también*". Use el ejemplo
+    del hotel. Vale la pena que dediquemos nuestra vida a un mundo que esta
+    condenado a la destrucción? Que alternativa tenemos?
+-   "*pero el que hace la voluntad de Dios vive para siempre*" La voluntad de
+    Dios para nosotros hoy día es que llevemos las buenas nuevas de su reino
+    a toda la tierra habitada.
 
-**Lea 1 Juan 2:15-17**
+[^14]: 17 Además, el mundo se está yendo, y sus deseos también, pero el que
+hace la voluntad de Dios vive para siempre.
 
--   \"*Además, el mundo se está yendo, y sus deseos también*\", que
-    destino es el que le espera a este mundo? Este sistema de cosas esta
-    destinado a ser destruido en el Armagedon. Vale la pena que
-    dediquemos nuestra vida a un mundo que esta condenado a la
-    destrucción? Que alternativa tenemos?
--   \"*pero el que hace la voluntad de Dios vive para siempre*\",
-    Tenemos la posibilidad de vivir para siempre en el reino de Dios.
-    Que es lo que este nos ofrece?
-    -   `[Imagen 3]`
-    -   Vamos a tener salud perfecta
-    -   No vamos a envejecer ni morir
-    -   Nuestros seres queridos y amigos van a resucitar
-    -   Tendremos alimento en abundancia
-    -   Viviremos en paz
+<!--
+Ejemplo del hotel:
+https://www.jw.org/es/biblioteca/videos/#es/mediaitems/VODPgmEvtMorningWorship/pub-jwb-103_12_VIDEO
+-->
 
-Y que tenemos que hacer para vivir en ese reino? Como dice el texto,
-tenemos que hacer la voluntad de Dios. La voluntad de Dios para nosotros
-hoy día es que llevemos las buenas nuevas de su reino a toda la tierra
-habitada.
+Esta es una obra que nos hace felices, como dice **Hechos 20:35[^15], cite**.
+Podemos asegurarnos de esto gracias a las experiencias de nuestros hermanos.
 
-Recordemos que esta labor no es una que se nos haga pesada o nos haga
-infelices, todo lo contrario, como dice Hechos 20:35 \"*Hay mas
-felicidad en dar que en recibir*\".
+[^15]: 35 En todo les he demostrado que deben trabajar así de duro para ayudar
+a los que son débiles y que deben recordar estas palabras que dijo el Señor
+Jesús: <mark>‘Hay más felicidad en dar que en recibir’</mark>”.
 
-Y como podemos estar seguros?
+Poner en primer lugar la voluntad de Dios nos producirá verdadera satisfacción,
+y ayudar a otros a conocer a Dios nos hará felices.
 
-> Sitio jw.org \> Sobre nosotros \> Experiencias
+Actúa ahora para asegurarte un futuro feliz `(5 Minutos)`
+---------------------------------------------------------
 
-`[Imagen 4]`
+Ya que vimos que los consejos de Dios nos pueden ayudar a ser felices, que otras
+cosas podemos hacer para asegurarnos un futuro feliz?
 
-Ahí podemos ver experiencias de nuestros hermanos. También podemos
-hablar con nuestros hermanos y hermanas en la congregación.
-
-Esto nos ayudara a ver que poner en primer lugar la voluntad de Dios nos
-producirá verdadera satisfacción, y que ayudar a otros a conocer a Dios
-nos hará felices.
-
-### Actúa ahora para asegurarte un futuro feliz `(5 Minutos)`
-
-Ya que vimos que los consejos de Dios nos pueden ayudar a ser felices,
-que otras cosas podemos hacer para asegurarnos un futuro feliz?
-
-1.  Comprueba por ti mismo que la biblia es la palabra inspirada de
-    Dios, y sigue estudiando los consejos que encontramos en ella (2
-    Timoteo 3:16).
-
-2.  Desarrolla una amistad con Jehová.
-
-    -   Observar la creación
-    -   Hablar con Dios
-    -   Aprender a tener fe en el
-    -   Seguir los consejos de Dios
-
-    Esto es importante porque es lo que te ayudara a superar las pruebas
-    y los problemas.
-
-    Recuerda el ejemplo de el joven Daniel y los 3 hebreos `[Imagen 5]`.
-    A ellos se los había llevado al exilio en Babilonia para recibir
-    educación y servir en el palacio del rey. El rey ordeno que se les
-    sirviera una ración diaria de \"los manjares del rey y del vino que
-    el bebía\". Entre esos manjares habían cosas que la ley de Dios les
-    prohibía comer.
-
-    Que hicieron?
-
-    > Pero Daniel decidió en su corazón que no iba a contaminarse con
-    > los manjares del rey ni con el vino que él bebía (Daniel 1:8, 9).
-
-    Y cual fue el resultado?
-
-    > Y el Dios verdadero les dio a estos cuatro jóvenes conocimiento y
-    > comprensión de todo tipo de escritura y sabiduría, y Daniel
-    > recibió la capacidad de entender todo tipo de visiones y sueños
-    > (Daniel 1:17).
-
-    Nosotros nos podemos ver en una situación similar (Permiso para ir a
-    asambleas, etc).
-
+1.  Comprueba por ti mismo que la biblia es la palabra inspirada de Dios.
+2.  Desarrolla una amistad con Jehová, órale, ten fe en el y sigue sus consejos.
+    Esto es lo mas importante porque te ayudara a superar las pruebas.
+    `[Imagen 4]`, explique el ejemplo de Daniel y los 3 hebreos. Nosotros nos
+    podemos ver en una situación similar (Permiso para ir a asambleas, etc).
 3.  Dedicarte y bautizarte
 
-Cual sera el resultado de eso? Jehová recompensara tus esfuerzos, te
-ayudara a ser feliz, y a tener éxito.
+Cual sera el resultado de eso? Jehová recompensara tus esfuerzos, te ayudara a
+ser feliz, y a tener éxito.
 
-> Ahora sí que soy rico\... no económicamente, pero sí en sentido
-> espiritual. Junto con mi esposa, Nuria, a quien conocí en Honduras, he
-> servido de misionero en Panamá y México. He visto lo ciertas que son
-> estas palabras de Proverbios 10:22: "La bendición de Jehová es lo que
-> enriquece, y con ella él no trae ningún dolor".
+> Ahora sí que soy rico... no económicamente, pero sí en sentido espiritual.
+> Junto con mi esposa, Nuria, a quien conocí en Honduras, he servido de
+> misionero en Panamá y México. He visto lo ciertas que son estas palabras de
+> Proverbios 10:22: "La bendición de Jehová es lo que enriquece, y con ella él
+> no trae ningún dolor".
