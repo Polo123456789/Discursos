@@ -111,6 +111,7 @@ simplificarlo a los siguientes pasos:
      las publicaciones de la organización.
    * **Proverbios 20:18[^7]**, Busquemos el consejo de cristianos maduros, sin
      pedirles que tomen la decisión por nosotros.
+     <!-- Puede que Proverbios 1:5 sea mejor aqui -->
 4. **Analizar nuestros motivos:** **Lea Proverbios 16:2[^8]**.
    * No nos dejemos llevar por las emociones (no tomamos decisiones cuando
      estamos enojados ni desanimados).
