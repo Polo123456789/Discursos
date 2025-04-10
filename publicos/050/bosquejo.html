@@ -8,9 +8,6 @@
   <title>50. Como tomar buenas decisiones</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -29,13 +26,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -59,6 +59,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -85,9 +89,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -149,10 +154,18 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <script>
@@ -370,7 +383,7 @@ linea, y las publicaciones de la organización.</li>
 <li><strong>Proverbios 20:18<a href="#fn7" class="footnote-ref"
 id="fnref7" role="doc-noteref"><sup>7</sup></a></strong>, Busquemos el
 consejo de cristianos maduros, sin pedirles que tomen la decisión por
-nosotros.</li>
+nosotros. <!-- Puede que Proverbios 1:5 sea mejor aqui --></li>
 </ul></li>
 <li><strong>Analizar nuestros motivos:</strong> <strong>Lea Proverbios
 16:2<a href="#fn8" class="footnote-ref" id="fnref8"
@@ -441,58 +454,53 @@ Decisiones Son Importantes Para Jehová (2 Mins.)</h3>
 id="fnref12" role="doc-noteref"><sup>12</sup></a></strong>, Si dejamos
 que Jehová nos guíe, tomaremos buenas decisiones, actuaremos con
 sabiduría, y el nos va a bendecir.</p>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>19 Hoy pongo los cielos y la tierra
-como testigos contra ustedes de que les he puesto delante la vida y la
-muerte, la bendición y la maldición. Y, para que ustedes y sus
-descendientes vivan, tienen que escoger la vida<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>10 Cuando la sabiduría entre en tu
-corazón y el conocimiento se convierta en algo agradable para tu alma,
-11 la capacidad de pensar velará por ti y el discernimiento te
-protegerá<a href="#fnref2" class="footnote-back"
+<li id="fn1"><p>19 Hoy pongo los cielos y la tierra como testigos contra
+ustedes de que les he puesto delante la vida y la muerte, la bendición y
+la maldición. Y, para que ustedes y sus descendientes vivan, tienen que
+escoger la vida<a href="#fnref1" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>¡Cuánto amo tu ley! Reflexiono en
-ella todo el día.<a href="#fnref3" class="footnote-back"
+<li id="fn2"><p>10 Cuando la sabiduría entre en tu corazón y el
+conocimiento se convierta en algo agradable para tu alma, 11 la
+capacidad de pensar velará por ti y el discernimiento te protegerá<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>¡Cuánto amo tu ley! Reflexiono en ella todo el día.<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>¡Ojalá fueran sabios! Reflexionarían sobre todo esto.
+Pensarían en cómo acabarán.<a href="#fnref4" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>¡Ojalá fueran sabios! Reflexionarían
-sobre todo esto. Pensarían en cómo acabarán.<a href="#fnref4"
+<li id="fn5"><p>Así que, si a alguno de ustedes le falta sabiduría, que
+se la pida constantemente a Dios, y la recibirá, porque él da
+generosamente a todos y sin reproches<a href="#fnref5"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>Así que, si a alguno de ustedes le
-falta sabiduría, que se la pida constantemente a Dios, y la recibirá,
-porque él da generosamente a todos y sin reproches<a href="#fnref5"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>3 si además pides a gritos
-entendimiento y alzas la voz para conseguir discernimiento, 4 si sigues
-buscando esto como si fuera plata y vas siempre en su búsqueda como si
-fueran tesoros escondidos, 5 entonces entenderás el temor de Jehová y
-encontrarás el conocimiento de Dios.<a href="#fnref6"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p>Cuando hay comunicación, los planes
-salen bien; haz tu guerra con orientación experta.<a href="#fnref7"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>Al hombre todos sus caminos le
-parecen correctos, pero Jehová examina las motivaciones.<a
-href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>Porque Dios es el que, tal como a él
-le agrada, los llena de energías dándoles tanto el deseo como las
-fuerzas para actuar<a href="#fnref9" class="footnote-back"
+<li id="fn6"><p>3 si además pides a gritos entendimiento y alzas la voz
+para conseguir discernimiento, 4 si sigues buscando esto como si fuera
+plata y vas siempre en su búsqueda como si fueran tesoros escondidos, 5
+entonces entenderás el temor de Jehová y encontrarás el conocimiento de
+Dios.<a href="#fnref6" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn10" role="doc-endnote"><p>Así que no dejemos de hacer lo que
-está bien, porque al debido tiempo cosecharemos si no nos cansamos<a
-href="#fnref10" class="footnote-back"
+<li id="fn7"><p>Cuando hay comunicación, los planes salen bien; haz tu
+guerra con orientación experta.<a href="#fnref7" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn11" role="doc-endnote"><p>Entonces Jesús les dijo a sus
-discípulos: “Si alguien quiere ser mi seguidor, que renuncie a sí mismo,
-que tome su madero de tormento y me siga constantemente<a
-href="#fnref11" class="footnote-back"
+<li id="fn8"><p>Al hombre todos sus caminos le parecen correctos, pero
+Jehová examina las motivaciones.<a href="#fnref8" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn12" role="doc-endnote"><p>Pon tu camino en manos de Jehová;
-confía en él, y él actuará a tu favor.<a href="#fnref12"
+<li id="fn9"><p>Porque Dios es el que, tal como a él le agrada, los
+llena de energías dándoles tanto el deseo como las fuerzas para actuar<a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Así que no dejemos de hacer lo que está bien, porque al
+debido tiempo cosecharemos si no nos cansamos<a href="#fnref10"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Entonces Jesús les dijo a sus discípulos: “Si alguien
+quiere ser mi seguidor, que renuncie a sí mismo, que tome su madero de
+tormento y me siga constantemente<a href="#fnref11"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Pon tu camino en manos de Jehová; confía en él, y él
+actuará a tu favor.<a href="#fnref12" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
