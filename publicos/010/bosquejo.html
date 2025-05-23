@@ -8,9 +8,6 @@
   <title>10. Seamos Honrados en Todo</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -29,13 +26,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -59,6 +59,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -85,9 +89,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -149,10 +154,18 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <script>
@@ -301,27 +314,35 @@ las que podemos mostrar honradez</p>
 </ul>
 <h2 id="no-nos-engañemos-a-nosotros-mismos-5-mins.">No nos engañemos a
 nosotros mismos (5 mins.)</h2>
-<p>Nosotros somos imperfectos, y por lo tanto vamos a cometer errores,
-incluso cuando pensemos que estamos haciendo lo correcto (<strong>Lea
-Proverbios 16:25<a href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a></strong>).</p>
+<p>Imagínese que a alguien le regalan una planta. Con tal de cuidarla,
+sigue las nociones básicas que tiene, la coloca junto a la ventana y la
+riega 2 veces todos los días. Que le sucede a la planta? Se ahoga. A
+pesar de tener toda la buena intención, no se obtuvo el resultado que
+quería.</p>
+<p>Nos sucede lo mismo a una mayor escala. Los humanos tenemos las
+nociones básicas de como tomar buenas decisiones, pero gracias a nuestra
+imperfección nos vamos a equivocar, incluso cuando pensemos que estamos
+haciendo lo correcto (<strong>Lea Proverbios 14:12<a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></strong>).
+<!-- o 16:25. Esta semana tocaba el
+capitulo 14, asi que queda mejor --></p>
 <p>También tenemos que recordar que tendremos que rendir cuentas a
 Jehová por nuestras acciones, tanto buenas como malas.</p>
 <p>Entonces tenemos que ser honrados con nosotros mismos, reconocer que
-“el corazón es mas traicionero que cualquier otra cosa”, y por lo tanto
-necesitamos la ayuda de Jehová para actuar con rectitud.</p>
+“el corazón es mas traicionero que cualquier otra cosa” (Jer. 17:9), y
+por lo tanto necesitamos la ayuda de Jehová para actuar con
+rectitud.</p>
 <p>Como hacemos esto? Imitando la actitud de David en <strong>Salmo
 139:23, 24<a href="#fn3" class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a></strong>. Tenemos que pedirle a Dios
-que nos examine, nos guié y nos corrija.</p>
-<p>Tenemos que hacernos un auto examen basado en la Biblia, permitir que
-Jehová nos muestre su guía y corrección, tenemos que aceptar
-humildemente sus consejos, y estar decididos a hacer cualquier cambio
-que sea necesario.</p>
-<p>Que pasa si necesitamos mas ayuda? <strong>Lea Santiago 5:14, 15<a
-href="#fn4" class="footnote-ref" id="fnref4"
-role="doc-noteref"><sup>4</sup></a></strong>. Podemos acudir con toda
-confianza a los ancianos.</p>
+role="doc-noteref"><sup>3</sup></a></strong>. Tenemos que hacernos un
+auto examen basado en la Biblia, permitir que Jehová nos muestre su guía
+y corrección, tenemos que aceptar humildemente sus consejos, y estar
+decididos a hacer cualquier cambio que sea necesario.</p>
+<p>Que pasa si necesitamos mas ayuda? Como dice Santiago 5:14, acudamos
+a los ancianos de congregación.</p>
+<p>Ser honrados con nosotros mismos nos lleva a aceptar nuestra
+imperfección y buscar la ayuda de Jehová.</p>
 <h2 id="en-la-familia-6-min.">En la familia (6 min.)</h2>
 <h3 id="en-la-relación-de-pareja">En la relación de pareja</h3>
 <p>Primero, evitando el coqueteo, las infidelidades y todo tipo de
@@ -329,16 +350,16 @@ pornografía. La honradez nos ayuda a evitar cosas que puedan separarnos
 de nuestro cónyuge.</p>
 <p>La honradez también puede ayudarnos a unirnos a nuestra pareja,
 ayudándonos a tener una buena comunicación. El libro “El secreto de la
-felicidad familiar” menciona como, <mark>si hay una buena comunicación
-en la pareja, ambos conjugues se sentirán en libertad de hacer saber sus
-necesidades, y podrán apoyarse cuando surjan dificultades.</mark></p>
+felicidad familiar” menciona como, si hay una buena comunicación en la
+pareja, ambos conjugues se sentirán en libertad de hacer saber sus
+necesidades, y podrán apoyarse cuando surjan dificultades.</p>
 <p>Como pueden tener esta buena comunicación? Veamos 2 textos:</p>
-<p><strong>Efesios 4:25<a href="#fn5" class="footnote-ref" id="fnref5"
-role="doc-noteref"><sup>5</sup></a></strong> La comunicación tiene que
+<p><strong>Efesios 4:25<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></strong> La comunicación tiene que
 ser franca y sincera. Ambos tienen que sentirse libres de decir su
 opinión. Pero …</p>
-<p><strong>Efesios 4:29-32<a href="#fn6" class="footnote-ref"
-id="fnref6" role="doc-noteref"><sup>6</sup></a></strong> Los cónyuges
+<p><strong>Efesios 4:31-32<a href="#fn5" class="footnote-ref"
+id="fnref5" role="doc-noteref"><sup>5</sup></a></strong> Los cónyuges
 tienen que evitar todo tipo de gritería y palabras hirientes, mas bien
 tienen que tratarse con amor y bondad.</p>
 <p>Si los cónyuges hacen esto, pueden estar seguros de que Jehová
@@ -350,10 +371,15 @@ pueden enseñar a sus hijos a ser honrados</h3>
 <p>Y segundo, analizando relatos bíblicos que resalten la importancia de
 ser honestos. Malos ejemplos como Acán o Judas. O buenos ejemplos como
 el de Jacob y Jesús.</p>
+<p>En conclusión, si los conjugues son honrados entre si, tendrán una
+mejor relación, serán mas felices, y le darán el ejemplo a sus hijos de
+como actuar. Si a eso agregan una educación basada en la biblia, se
+aseguraran de que sus hijos crezcan para ser personas honradas
+también.</p>
 <h2 id="en-la-congregación-4-min.">En la Congregación (4 min.)</h2>
 <p>Hay una trampa que tenemos que evitar a toda costa: El chisme
-(Levítico 19:16<a href="#fn7" class="footnote-ref" id="fnref7"
-role="doc-noteref"><sup>7</sup></a>).</p>
+(Levítico 19:16<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a>).</p>
 <p>Cree que una persona honrada va a estar repitiendo historias sin
 confirmar? Porque en ese caso podría estar compartiendo mentiras. Y
 incluso si la historia llegara a ser verdad, estaría actuando con
@@ -364,18 +390,19 @@ No mentimos para dar una mejor imagen de nosotros.</p>
 dirigen. <code>Inserte ejemplo de metirle a un doctor</code>. Si
 llegáramos a mentir o a decir medias verdades para evitar la disciplina,
 lo único que estaríamos haciendo es empeorar nuestra situación.</p>
+<p>Si somos honrados dentro de la congregación contribuiremos a nuestra
+salud espiritual y a la de nuestros hermanos.</p>
 <h2 id="fuera-de-la-congregación-6-min.">Fuera de la Congregación (6
 min.)</h2>
-<p>Por ejemplo, en nuestro trabajo. Jehová detesta la falta de honradez
-en los negocios (Proverbios 11:1<a href="#fn8" class="footnote-ref"
-id="fnref8" role="doc-noteref"><sup>8</sup></a>).</p>
 <p>Las balanzas y las pesas se usaban en la antigüedad para comprar y
 vender productos. Tanto para pesar el producto, como para pesar el oro y
 plata con la que se pagaba. Los comerciantes deshonestos usaban 2 juegos
-de pesas para estafar a la gente. Jehová detestaba esta práctica. Del
-mismo modo nos aplica a nosotros.Si queremos contar con la aprobación de
-Jehová, tenemos que evitar recurrir a cualquier tipo de fraude en
-nuestro trabajo.</p>
+de pesas para estafar a la gente. Que opinaba Jehová de esta práctica?
+** Lea Proverbios 11:1<a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a>**.</p>
+<p>Del mismo modo nos aplica a nosotros. Si queremos contar con la
+aprobación de Jehová, tenemos que evitar recurrir a cualquier tipo de
+fraude en nuestro trabajo.</p>
 <p>Y no solo en el trabajo, ya que este mundo nos presenta infinidad de
 oportunidades para ser deshonestos. Por ejemplo:</p>
 <ul>
@@ -390,7 +417,7 @@ que:</p>
 <ol type="1">
 <li>Tarde o temprano llegan las consecuencias por las malas
 acciones.</li>
-<li>También hay beneficios por ser honrados.
+<li>También hay beneficios en este mundo por ser honrados.
 <ul>
 <li>Nos ganamos la confianza de los demás, lo que puede resultar en que
 nos den mas responsabilidades, libertades, o que nos premien de otras
@@ -420,56 +447,45 @@ beneficios</p>
 <li>Tendremos una conciencia tranquila</li>
 <li>Otros podrían sentirse atraídos a la verdad si ven que nosotros
 actuamos con honradez</li>
-<li>Seremos amigos de Jehová (Proverbios 3:32<a href="#fn9"
-class="footnote-ref" id="fnref9"
-role="doc-noteref"><sup>9</sup></a>)</li>
+<li>Seremos amigos de Jehová (Proverbios 3:32<a href="#fn8"
+class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a>)</li>
 </ul>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>Sigan orando por nosotros, porque
-estamos convencidos de que tenemos una buena conciencia, pues deseamos
-comportarnos con honradez en todo.<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>Hay un camino que al hombre le parece
-correcto, pero al final lleva a la muerte.<a href="#fnref2"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>23 Examíname a fondo, oh, Dios, y
-conoce mi corazón. Mira dentro de mí y conoce mis pensamientos
-angustiosos. 24 Observa si hay en mí alguna mala tendencia, y llévame
-por el camino de la eternidad.<a href="#fnref3" class="footnote-back"
+<li id="fn1"><p>Sigan orando por nosotros, porque estamos convencidos de
+que tenemos una buena conciencia, pues deseamos comportarnos con
+honradez en todo.<a href="#fnref1" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>14 ¿Hay alguien enfermo entre
-ustedes? Que llame a los ancianos de la congregación y que ellos oren
-por él, aplicándole aceite en el nombre de Jehová. 15 Y la oración hecha
-con fe hará que el enfermo se recupere, y Jehová lo levantará. Además,
-si él ha cometido algún pecado, será perdonado.<a href="#fnref4"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>Por tanto, ahora que han abandonado
-todo tipo de engaño, que cada uno de ustedes le diga la verdad a su
-prójimo, porque todos somos miembros que nos pertenecemos unos a otros<a
-href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>29 Que no salgan de su boca palabras
-corrompidas. Más bien, que todo lo que digan sirva para edificar a otros
-según sea necesario y para beneficiar a quienes los escuchan. 30 Además,
-no estén entristeciendo al espíritu santo de Dios, con el que han sido
-sellados para el día en que sean liberados por rescate. 31 Líbrense de
-todo amargo rencor, furia, ira, gritería y palabras hirientes, y también
-de toda maldad. 32 Más bien, sean bondadosos unos con otros, trátense
-con ternura y compasión, y perdónense con generosidad, así como Dios los
-perdonó generosamente a ustedes mediante Cristo.<a href="#fnref6"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p>No andes entre tu pueblo esparciendo
-calumnias. No te levantes en contra de la vida de tu prójimo. Yo soy
-Jehová<a href="#fnref7" class="footnote-back"
+<li id="fn2"><p>Hay un camino que al hombre le parece correcto, pero al
+final lleva a la muerte.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>Jehová detesta una balanza
-fraudulenta, pero una pesa exacta es un placer para él.<a href="#fnref8"
+<li id="fn3"><p>23 Examíname a fondo, oh, Dios, y conoce mi corazón.
+Mira dentro de mí y conoce mis pensamientos angustiosos. 24 Observa si
+hay en mí alguna mala tendencia, y llévame por el camino de la
+eternidad.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Por tanto, ahora que han abandonado todo tipo de engaño,
+que cada uno de ustedes le diga la verdad a su prójimo, porque todos
+somos miembros que nos pertenecemos unos a otros<a href="#fnref4"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>porque Jehová detesta a las personas
-retorcidas, pero tiene una estrecha amistad con las que son rectas.<a
-href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>31 Líbrense de todo amargo rencor, furia, ira, gritería
+y palabras hirientes, y también de toda maldad. 32 Más bien, sean
+bondadosos unos con otros, trátense con ternura y compasión, y
+perdónense con generosidad, así como Dios los perdonó generosamente a
+ustedes mediante Cristo.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>No andes entre tu pueblo esparciendo calumnias. No te
+levantes en contra de la vida de tu prójimo. Yo soy Jehová<a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Jehová detesta una balanza fraudulenta, pero una pesa
+exacta es un placer para él.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>porque Jehová detesta a las personas retorcidas, pero
+tiene una estrecha amistad con las que son rectas.<a href="#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
