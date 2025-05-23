@@ -7,9 +7,6 @@
   <title>Tenemos muchas razones para alabar a Jah</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -28,13 +25,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -58,6 +58,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -84,9 +88,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -148,10 +153,18 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <script>
@@ -323,23 +336,23 @@ nos ha bendecido hoy, cada una de esas bendiciones es una razón para
 alabar a Jehová.</p>
 <p>Nosotros estamos muy agradecidos con nuestro creador, así que siempre
 recordemos darle la alabanza que su nombre merece.</p>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>Sana a los que tienen el corazón
-destrozado y venda sus heridas.<a href="#fnref1" class="footnote-back"
+<li id="fn1"><p>Sana a los que tienen el corazón destrozado y venda sus
+heridas.<a href="#fnref1" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>Cuenta el número de las estrellas;
-las llama a todas por su nombre.<a href="#fnref2" class="footnote-back"
+<li id="fn2"><p>Cuenta el número de las estrellas; las llama a todas por
+su nombre.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>5 Nuestro Señor es grande, su poder
-es inmenso, su entendimiento, infinito.<a href="#fnref3"
+<li id="fn3"><p>5 Nuestro Señor es grande, su poder es inmenso, su
+entendimiento, infinito.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>19 Le anuncia su palabra a Jacob, sus normas y
+sentencias a Israel. 20 No ha hecho esto con ninguna otra nación; de sus
+sentencias ellas no saben nada. ¡Alaben a Jah!<a href="#fnref4"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>19 Le anuncia su palabra a Jacob, sus
-normas y sentencias a Israel. 20 No ha hecho esto con ninguna otra
-nación; de sus sentencias ellas no saben nada. ¡Alaben a Jah!<a
-href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>

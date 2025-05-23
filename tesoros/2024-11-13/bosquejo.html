@@ -7,9 +7,6 @@
   <title>Se olvidaron de Dios, su Salvador</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -28,13 +25,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -58,6 +58,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -84,9 +88,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -148,10 +153,18 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <script>
@@ -332,28 +345,27 @@ cuidado hasta ese momento.</p>
 sobre las cosas que ha hecho Jehová por nosotros, permitamos que se
 graben en nuestro corazón, para que cuando afrontemos dificultades
 mostremos una confianza absoluta en Jehová.</p>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>11 Le dijeron a Moisés: “¿Es que no
-hay lugares donde enterrarnos en Egipto y por eso nos has traído a morir
-aquí, en el desierto? ¿Qué nos has hecho? ¿Por qué nos sacaste de
-Egipto? 12 ¿No te dijimos precisamente eso en Egipto? ¿No te dijimos:
-‘Déjanos en paz, déjanos seguir sirviéndoles a los egipcios’? Es mejor
-servirles a los egipcios que morir en el desierto”.<a href="#fnref1"
+<li id="fn1"><p>11 Le dijeron a Moisés: “¿Es que no hay lugares donde
+enterrarnos en Egipto y por eso nos has traído a morir aquí, en el
+desierto? ¿Qué nos has hecho? ¿Por qué nos sacaste de Egipto? 12 ¿No te
+dijimos precisamente eso en Egipto? ¿No te dijimos: ‘Déjanos en paz,
+déjanos seguir sirviéndoles a los egipcios’? Es mejor servirles a los
+egipcios que morir en el desierto”.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>13 Pero enseguida se les olvidó lo
-que él había hecho; no esperaron su dirección. 14 En el desierto se
-dejaron llevar por sus deseos egoístas; pusieron a prueba a Dios en la
-tierra árida.<a href="#fnref2" class="footnote-back"
+<li id="fn2"><p>13 Pero enseguida se les olvidó lo que él había hecho;
+no esperaron su dirección. 14 En el desierto se dejaron llevar por sus
+deseos egoístas; pusieron a prueba a Dios en la tierra árida.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>1 Mientras tanto, el pueblo vio que Moisés tardaba mucho
+en bajar de la montaña. Así que todos se reunieron alrededor de Aarón y
+le dijeron: “¡Vamos! Haznos un dios que vaya delante de nosotros, porque
+no sabemos qué le pasó a este Moisés, el hombre que nos sacó de la
+tierra de Egipto”.<a href="#fnref3" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>1 Mientras tanto, el pueblo vio que
-Moisés tardaba mucho en bajar de la montaña. Así que todos se reunieron
-alrededor de Aarón y le dijeron: “¡Vamos! Haznos un dios que vaya
-delante de nosotros, porque no sabemos qué le pasó a este Moisés, el
-hombre que nos sacó de la tierra de Egipto”.<a href="#fnref3"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>

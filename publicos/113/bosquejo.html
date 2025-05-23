@@ -8,9 +8,6 @@
   <title>Joven, como puedes ser feliz y tener éxito?</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -29,13 +26,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -59,6 +59,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -85,9 +89,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -149,10 +154,18 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <script>
@@ -462,80 +475,74 @@ servido de misionero en Panamá y México. He visto lo ciertas que son
 estas palabras de Proverbios 10:22: “La bendición de Jehová es lo que
 enriquece, y con ella él no trae ningún dolor”.</p>
 </blockquote>
-<section class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>9 Joven, disfruta de tu juventud, y
-que tu corazón esté feliz mientras seas joven. Sigue los caminos de tu
-corazón y vete adonde te lleven tus ojos. Pero quiero que sepas que el
-Dios verdadero te llamará a juicio por todo eso.<a href="#fnref1"
+<li id="fn1"><p>9 Joven, disfruta de tu juventud, y que tu corazón esté
+feliz mientras seas joven. Sigue los caminos de tu corazón y vete adonde
+te lleven tus ojos. Pero quiero que sepas que el Dios verdadero te
+llamará a juicio por todo eso.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>7 No se engañen: nadie puede burlarse de Dios. Porque
+<mark>lo que uno esté sembrando es lo que cosechará.</mark><a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>1 Acuérdate de tu Gran Creador en tu juventud, antes de
+que vengan los días angustiosos y lleguen los años en que vas a decir:
+“No encuentro en ellos ningún placer”;<a href="#fnref3"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>7 No se engañen: nadie puede burlarse
-de Dios. Porque <mark>lo que uno esté sembrando es lo que
-cosechará.</mark><a href="#fnref2" class="footnote-back"
+<li id="fn4"><p>5 Pon tu camino en manos de Jehová; confía en él, y él
+actuará a tu favor<a href="#fnref4" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>1 Acuérdate de tu Gran Creador en tu
-juventud, antes de que vengan los días angustiosos y lleguen los años en
-que vas a decir: “No encuentro en ellos ningún placer”;<a href="#fnref3"
+<li id="fn5"><p>20 El que anda con los sabios se hará sabio, pero el que
+se junta con los insensatos acabará mal.<a href="#fnref5"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>5 Pon tu camino en manos de Jehová;
-confía en él, y él actuará a tu favor<a href="#fnref4"
+<li id="fn6"><p>22 Por otra parte, el fruto del espíritu es amor,
+felicidad, paz, paciencia, amabilidad, bondad, fe, 23 apacibilidad,
+autocontrol. No hay ley en contra de esas cosas.<a href="#fnref6"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>20 El que anda con los sabios se hará
-sabio, pero el que se junta con los insensatos acabará mal.<a
-href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>22 Por otra parte, el fruto del
-espíritu es amor, felicidad, paz, paciencia, amabilidad, bondad, fe,
-23 apacibilidad, autocontrol. No hay ley en contra de esas cosas.<a
-href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p>2 Y <mark>dejen de amoldarse a este
-sistema</mark>; más bien, transfórmense renovando su mente, para que
-comprueben por ustedes mismos cuál es la buena, agradable y perfecta
-voluntad de Dios.<a href="#fnref7" class="footnote-back"
+<li id="fn7"><p>2 Y <mark>dejen de amoldarse a este sistema</mark>; más
+bien, transfórmense renovando su mente, para que comprueben por ustedes
+mismos cuál es la buena, agradable y perfecta voluntad de Dios.<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>En cuanto David terminó de conversar con Saúl, surgió
+una gran amistad entre Jonatán y David, y Jonatán empezó a quererlo como
+a sí mismo.<a href="#fnref8" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>En cuanto David terminó de conversar
-con Saúl, surgió una gran amistad entre Jonatán y David, y Jonatán
-empezó a quererlo como a sí mismo.<a href="#fnref8"
+<li id="fn9"><p>24 Hay compañeros listos para destrozarse el uno al
+otro, pero <mark>hay un amigo que se apega más que un hermano.</mark><a
+href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>3 Esta es la voluntad de Dios: que sean santos y se
+abstengan de la inmoralidad sexual.<a href="#fnref10"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>24 Hay compañeros listos para
-destrozarse el uno al otro, pero <mark>hay un amigo que se apega más que
-un hermano.</mark><a href="#fnref9" class="footnote-back"
+<li id="fn11"><p>7 Entonces la esposa de su amo empezó a fijarse en José
+y a decirle: “Acuéstate conmigo”. 8 Pero él se negaba y le decía a la
+esposa de su amo: “Mira, mi amo no se preocupa de nada de la casa porque
+me tiene a mí, y me ha confiado todo lo que tiene. 9 No hay nadie con
+más autoridad que yo en esta casa. Y él ha puesto todo a mi disposición
+excepto a ti, porque eres su esposa. Así que ¿cómo podría yo hacer algo
+tan malo y de hecho pecar contra Dios?”. 10 Ella insistía día tras día,
+pero José nunca aceptaba acostarse con ella ni quedarse con ella. 11 Sin
+embargo, uno de los días en que entró en la casa a hacer su trabajo no
+había ningún sirviente dentro. 12 Entonces ella lo agarró por la ropa y
+le dijo: “¡Acuéstate conmigo!”. Pero él salió huyendo y dejó su ropa
+entre las manos de ella.<a href="#fnref11" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn10" role="doc-endnote"><p>3 Esta es la voluntad de Dios: que
-sean santos y se abstengan de la inmoralidad sexual.<a href="#fnref10"
+<li id="fn12"><p>4 Cada uno de ustedes debe saber controlar su propio
+cuerpo para mantenerlo santo y honorable,<a href="#fnref12"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11" role="doc-endnote"><p>7 Entonces la esposa de su amo
-empezó a fijarse en José y a decirle: “Acuéstate conmigo”. 8 Pero él se
-negaba y le decía a la esposa de su amo: “Mira, mi amo no se preocupa de
-nada de la casa porque me tiene a mí, y me ha confiado todo lo que
-tiene. 9 No hay nadie con más autoridad que yo en esta casa. Y él ha
-puesto todo a mi disposición excepto a ti, porque eres su esposa. Así
-que ¿cómo podría yo hacer algo tan malo y de hecho pecar contra Dios?”.
-10 Ella insistía día tras día, pero José nunca aceptaba acostarse con
-ella ni quedarse con ella. 11 Sin embargo, uno de los días en que entró
-en la casa a hacer su trabajo no había ningún sirviente dentro.
-12 Entonces ella lo agarró por la ropa y le dijo: “¡Acuéstate conmigo!”.
-Pero él salió huyendo y dejó su ropa entre las manos de ella.<a
-href="#fnref11" class="footnote-back"
+<li id="fn13"><p>10 El que ama el dinero nunca estará satisfecho con su
+dinero, ni el que ama la riqueza, con sus ingresos. Eso también es en
+vano.<a href="#fnref13" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn12" role="doc-endnote"><p>4 Cada uno de ustedes debe saber
-controlar su propio cuerpo para mantenerlo santo y honorable,<a
-href="#fnref12" class="footnote-back"
+<li id="fn14"><p>17 Además, el mundo se está yendo, y sus deseos
+también, pero el que hace la voluntad de Dios vive para siempre.<a
+href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>35 En todo les he demostrado que deben trabajar así de
+duro para ayudar a los que son débiles y que deben recordar estas
+palabras que dijo el Señor Jesús: <mark>‘Hay más felicidad en dar que en
+recibir’</mark>”.<a href="#fnref15" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn13" role="doc-endnote"><p>10 El que ama el dinero nunca estará
-satisfecho con su dinero, ni el que ama la riqueza, con sus ingresos.
-Eso también es en vano.<a href="#fnref13" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-<li id="fn14" role="doc-endnote"><p>17 Además, el mundo se está yendo, y
-sus deseos también, pero el que hace la voluntad de Dios vive para
-siempre.<a href="#fnref14" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-<li id="fn15" role="doc-endnote"><p>35 En todo les he demostrado que
-deben trabajar así de duro para ayudar a los que son débiles y que deben
-recordar estas palabras que dijo el Señor Jesús: <mark>‘Hay más
-felicidad en dar que en recibir’</mark>”.<a href="#fnref15"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
