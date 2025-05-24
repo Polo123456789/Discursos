@@ -160,6 +160,10 @@ de la vida de tu prójimo. Yo soy Jehová
 Fuera de la Congregación (6 min.)
 ---------------------------------
 
+Se cree que las primeras monedas se acuñaron alrededor del año 700 a. E.C. Los
+israelitas probablemente usaron monedas por primera vez en su tierra natal
+después de regresar del exilio en Babilonia
+
 Las balanzas y las pesas se usaban en la antigüedad para comprar y vender
 productos. Tanto para pesar el producto, como para pesar el oro y plata con la
 que se pagaba. Los comerciantes deshonestos usaban 2 juegos de pesas para
