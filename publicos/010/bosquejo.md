@@ -167,7 +167,7 @@ después de regresar del exilio en Babilonia
 Las balanzas y las pesas se usaban en la antigüedad para comprar y vender
 productos. Tanto para pesar el producto, como para pesar el oro y plata con la
 que se pagaba. Los comerciantes deshonestos usaban 2 juegos de pesas para
-estafar a la gente. Que opinaba Jehová de esta práctica? ** Lea Proverbios
+estafar a la gente. Que opinaba Jehová de esta práctica? **Lea Proverbios
 11:1[^7]**.
 
 [^7]: Jehová detesta una balanza fraudulenta, pero una pesa exacta es un placer
