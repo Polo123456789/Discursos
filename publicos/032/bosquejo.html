@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Cómo enfrentarse a las inquietudes de la vida</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Cómo enfrentarse a las inquietudes de la vida</h1>
+</header>
+<h1
+id="jehová-nos-ayuda-a-enfrentarnos-a-las-inquietudes-minuto-0">Jehová
+nos ayuda a enfrentarnos a las inquietudes (minuto 0)</h1>
+<p><em>Ejemplo de la carreta</em>. Con la herramienta adecuada, las
+cargas se sienten mas ligeras.</p>
+<p>Todos llevamos distintas cargas, Jehová lo sabe y se interesa por
+nosotros <strong>Lea 1 Pedro 5:7</strong><a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. El
+nos da herramientas que las hacen mas llevaderas.</p>
+<p>Para cada punto que tratemos, analizaremos:</p>
+<ol type="1">
+<li>Como nos ayuda Jehová?</li>
+<li>Como podemos sacarle provecho a su ayuda?</li>
+</ol>
+<h1 id="la-oración-minuto-3">La Oración (minuto 3)</h1>
+<p><strong><em>Como nos ayuda la oración?</em></strong> Jehová responde
+con su espíritu santo. Que efecto tiene?</p>
+<ul>
+<li><p><strong>Lea Filipenses 4:6, 7</strong><a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a>.</p>
+<ul>
+<li>“La paz de Dios” <code>[Imagen 1]</code>, es una sensación de
+tranquilidad y quietud que no depende de nuestras circunstancias, sino
+de nuestra relación con Jehová, y de la confianza en que el nos
+cuidará.</li>
+<li>“Protegerá sus corazones y sus mentes”, lo que pensamos y sentimos,
+evita que nos abrumemos.</li>
+</ul></li>
+<li><p><strong>Lea Filipenses 4:13</strong><a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.
+Jehová nos da las fuerzas necesarias.</p></li>
+<li><p>Puede que Jehová haga algo para cambiar la situación. Quizá no
+sea algo impresionante, pero sera lo que necesitamos.</p></li>
+</ul>
+<p><strong><em>Como le sacamos provecho a la oración?</em></strong></p>
+<ul>
+<li>Dejando en manos de Jehová nuestros problemas. <strong>Lea Salmo
+55:22</strong><a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a>.
+<ul>
+<li>La palabra hebrea “arroja” da a entender remover algo por completo y
+definitivamente.</li>
+</ul></li>
+<li>Centrémonos en cosas positivas. Teníamos que “dar gracias”, para
+ello tenemos que fijarnos en las cosas buenas, y en como Jehová ha
+contestado nuestras oraciones.</li>
+</ul>
+<h1 id="la-biblia-minuto-11">La Biblia (minuto 11)</h1>
+<p><strong><em>Como nos ayuda la Biblia?</em></strong></p>
+<ul>
+<li><strong>Lea Salmo 94:19</strong><a href="#fn5" class="footnote-ref"
+id="fnref5" role="doc-noteref"><sup>5</sup></a>. Nos consuela.
+<ul>
+<li>Ejemplo: Los israelitas en el exilio. <strong>Cite Jeremías 29:10,
+11</strong><a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a>.</li>
+<li>Jehová esta atento a nosotros</li>
+<li>Jehová nos da una esperanza y un futuro</li>
+<li>Jehová cumple sus promesas</li>
+</ul></li>
+<li>Nos guía. Sus advertencias, instrucciones y principios nos ayudan a
+tomar decisiones sabias.</li>
+</ul>
+<p><strong><em>Como le sacamos provecho a la Biblia?</em></strong>
+Haciéndonos la costumbre de leer, meditar e investigar. Igual que un
+luchador entrena para que sus reacciones sean instintivas, nosotros
+entrenamos nuestra mente para que al enfrentarnos a problemas,
+instintivamente pensemos en los principios bíblicos.</p>
+<h1 id="lo-necesario-minuto-18-buffer">Lo Necesario (minuto 18,
+buffer)</h1>
+<p><strong>Lea Mateo 6:33</strong><a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a>. Una promesa que Jesús
+nos hace por experiencia.</p>
+<ul>
+<li>Durante su ministerio, de que era dueño? No tenia ni donde recostar
+su cabeza (Mateo 8:20).</li>
+<li>Si Dios alimenta a las aves y viste a las flores, como no iba a
+cuidar de su hijo?</li>
+</ul>
+<p><strong><em>Como nos ayuda saber que Jehová nos da lo
+necesario?</em></strong> Nos ayuda a no preocuparnos en exceso,
+<strong>Lea Mateo 6:34</strong><a href="#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a>.</p>
+<ul>
+<li>Quienes se preocupan en exceso por problemas futuros, muchos que no
+suceden, son mas propensos a:
+<ul>
+<li>Trastornos de ansiedad.</li>
+<li>Ataques de pánico</li>
+<li>Agotamiento mental</li>
+<li>Problemas cardiovasculares</li>
+<li>Tienen problemas para tomar decisiones</li>
+<li>Disfrutan menos del presente</li>
+</ul></li>
+<li>Tenemos que reconocer que hay una diferencia entre anticipar, y
+preocuparnos en exceso. Preocuparnos de esta manera no soluciona
+nada.</li>
+</ul>
+<p><strong><em>Como le sacamos provecho a esta
+promesa?</em></strong></p>
+<ul>
+<li>No nos preocupemos por problemas futuros. Tomemos los problemas que
+tengamos ahora, pidámosle ayuda a Jehová, hagamos lo que este en nuestra
+mano, y dejemos el resto en manos de Jehová.</li>
+<li>Buscando primer el Reino (predicando), y su justicia (siguiendo sus
+normas).</li>
+<li>Estando contentos con lo que Jehová nos da.</li>
+</ul>
+<h1 id="nuestros-hermanos-minuto-24">Nuestros Hermanos (minuto 24)</h1>
+<p><strong><em>Como nos ayudan nuestros hermanos?</em></strong>
+<strong>Lea Proverbios 17:17</strong><a href="#fn9" class="footnote-ref"
+id="fnref9" role="doc-noteref"><sup>9</sup></a>.</p>
+<ul>
+<li>Encontramos amigos verdaderos
+<ul>
+<li>Que se interesan sinceramente por nosotros</li>
+<li>Que nos pueden ayudar de forma practica</li>
+<li>En ocasiones, puede que solo necesitemos tener alguien de confianza
+con quien desahogarnos.</li>
+</ul></li>
+<li>Aunque no tengamos una amistad extremadamente cercana con todos los
+hermanos, el compañerismo que se siente dentro la congregación sigue
+siendo animador.</li>
+</ul>
+<p><strong><em>Como le sacamos provecho a la ayuda de nuestros
+hermanos?</em></strong></p>
+<ul>
+<li>Esforcémonos por seguir asistiendo a las reuniones y por participar
+en el servicio.</li>
+<li>Esforcémonos por cultivar las cualidades para ser buenos
+amigos.</li>
+</ul>
+<h1 id="fortalezca-su-fe-en-jehová-minuto-28">Fortalezca su Fe en Jehová
+(minuto 28)</h1>
+<p><code>Resumen</code></p>
+<p>Esforcémonos por fortalecer nuestra fe en Jehová, y por aprovechar
+las ayudas que el nos da (Salmo 37:5).</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>7 mientras echan todas sus inquietudes sobre él, porque
+él se preocupa por ustedes.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>6 No se angustien por nada. Más bien, en cualquier
+situación, mediante oraciones y ruegos y dando gracias, háganle saber a
+Dios sus peticiones, 7 y la paz de Dios, que está más allá de lo que
+ningún ser humano puede entender, protegerá sus corazones y sus mentes
+por medio de Cristo Jesús.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Tengo fuerzas para todo gracias a aquel que me da
+poder.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>22 Arroja tu carga sobre Jehová, y él te sostendrá.
+Jamás permitirá que caiga el justo<a href="#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Cuando las preocupaciones me abrumaban, tú me consolabas
+y me tranquilizabas.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>10 “Porque esto es lo que dice Jehová: ‘Cuando se
+cumplan 70 años en Babilonia, yo dirigiré mi atención a ustedes y
+cumpliré mi promesa trayéndolos de vuelta a este lugar’. 11”’Porque sé
+muy bien lo que tengo en mente para ustedes —afirma Jehová—. Quiero que
+tengan paz, no calamidad. Quiero darles un futuro y una esperanza<a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>33 ”Por lo tanto, sigan buscando primero el Reino y la
+justicia de Dios, y entonces recibirán también todas esas cosas.<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>34 Así que nunca se angustien por el día siguiente,
+porque el día siguiente traerá sus propias preocupaciones. Bastante hay
+con los problemas de cada día.<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>El verdadero amigo ama en todo momento y es un hermano
+en tiempos de angustia.<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
