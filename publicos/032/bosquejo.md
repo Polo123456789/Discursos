@@ -65,7 +65,7 @@ La Biblia (minuto 11)
 ***Como nos ayuda la Biblia?***
 
 * **Lea Salmo 94:19**[^Sal9419]. Nos consuela.
-  * Ejemplo: Los israelitas en el exilio. **Cite Jeremías 29:10,
+  * Ejemplo: Los israelitas en el exilio (Salmo 137). **Cite Jeremías 29:10,
     11**[^Jer291011].
   * Jehová esta atento a nosotros
   * Jehová nos da una esperanza y un futuro
