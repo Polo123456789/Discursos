@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>¡Aquí estoy yo! ¡Envíame a mí!</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">¡Aquí estoy yo! ¡Envíame a mí!</h1>
+</header>
+<p>“Estoy ocupado”, “Ya voy de salida”, “Yo ya tengo mi religión”, “Lo
+que ustedes enseñan es mentira”. Cuantas veces no nos han dicho cosas
+parecidas en el servicio? Cuantas veces nos han escuchado, pero no han
+oído de verdad lo que decimos?</p>
+<p>Con el tiempo, es posible que la indiferencia de las personas en
+nuestro territorio nos desanime. En este discurso analizaremos como los
+ejemplos de Isaías y Jesucristo pueden ayudarnos.</p>
+<p>Veremos:</p>
+<ol type="1">
+<li>Su buena disposición</li>
+<li>La reacción del pueblo</li>
+<li>Como nos anima saber que habrá una “descendencia santa”</li>
+</ol>
+<h3 id="la-buena-disposición">La buena disposición</h3>
+<ul>
+<li>Isaías ve una gran visión, <em>explique</em>, vemos que sucede
+dentro de ella.</li>
+<li><strong>Lea Isaías 6:8</strong><a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a>.
+<ul>
+<li>Solo Isaías estaba en la visión, así que la invitación era para
+el.</li>
+<li>Como responde Isaías? Se ofrece sin dudarlo.
+<ul>
+<li>No se pregunta a que lo van a enviar, ni que va a ganar</li>
+</ul></li>
+<li>Se ofrece con esa confianza por 2 motivos:
+<ol type="1">
+<li>Porque lo que va a hacer sera para Jehová</li>
+<li>Porque lo hará con el apoyo de Jehová</li>
+</ol></li>
+<li>Nosotros compartimos estos motivos
+<ul>
+<li>Aunque queremos que la gente conozca la verdad, nuestro motivo
+principal es nuestro amor por Jehová</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="no-escucharían">No escucharían</h3>
+<ul>
+<li><strong>Lea Isaías 6:9-10</strong><a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
+<ul>
+<li>Jehová no le esta diciendo a Isaías que sea duro con el pueblo, sino
+que le esta prediciendo cual va a ser la reacción del pueblo.
+<ul>
+<li>Estarían como ciegos y sordos, es decir, no iban a escuchar el
+mensaje, ni lo iban a aceptar.</li>
+</ul></li>
+<li>Isaías hacia su trabajo con el apoyo de Jehová, con fidelidad, y aun
+así el pueblo no lo iba a escuchar.
+<ul>
+<li>No era culpa de Isaías, sino del pueblo.</li>
+</ul></li>
+<li>Igual hoy en día, la insensibilidad de las personas no es nuestra
+culpa, sino que es gracias a las circunstancia de este sistema.
+<ul>
+<li>Con la ayuda de Jehová, Isaías cumplió con su comisión durante mas
+de 40 años.</li>
+<li>Nosotros también podemos hacerlo.</li>
+</ul></li>
+</ul></li>
+<li><strong>Lea Mateo 13:13-15</strong><a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.
+<ul>
+<li>Jesús venia a hacer la voluntad de Jehová, fue enviado por Jehová,
+fue el maestro mas grande de todos los tiempos!</li>
+<li>El explica que los judíos de su tiempo iban a tener la misma actitud
+que en el tiempo de Isaías.</li>
+</ul></li>
+</ul>
+<p>Continuando con la profecía …</p>
+<h3 id="será-una-descendencia-santa">“será una descendencia santa”</h3>
+<ul>
+<li>Luego de que viniera la destrucción, quedaría una “décima parte”,
+una “descendencia santa”.
+<ul>
+<li>En la época de Isaías, fueron los judíos que regresaron del
+exilio</li>
+<li>En la época de Jesús, fueron sus discípulos que sobrevivieron a la
+destrucción de Jerusalén en el 70 E.C.</li>
+<li>Ambos representan a un resto fiel que fue obediente a Dios</li>
+</ul></li>
+<li>El que ese resto fiel se incluya en la profecía nos asegura que
+también existe hoy en día, y por eso es nuestra comisión trabajar hasta
+encontrarlos.</li>
+</ul>
+<p><em>Resumen y Conclusión</em></p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Entonces oí la voz de Jehová diciendo: “¿A quién enviaré
+y quién irá por nosotros?”. Y yo dije: “¡Aquí estoy yo! ¡Envíame a
+mí!”.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>9 Y él contestó: “Ve y dile a este pueblo: ‘Por más que
+ustedes oigan, no entenderán; por más que vean, no conseguirán ningún
+conocimiento’. 10 Haz insensible el corazón de este pueblo, tápales los
+oídos y ciérrales los ojos para que no vean con los ojos ni oigan con
+los oídos, para que su corazón no entienda y no regresen a Dios y sean
+sanados”.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>13 Por eso les hablo a ellos usando comparaciones,
+porque, aunque ven, en realidad no ven y, aunque oyen, en realidad no
+oyen ni tampoco comprenden nada. 14 En ellos se cumple esta profecía de
+Isaías: ‘Ustedes van a oír, pero jamás van a comprender. Van a mirar,
+pero jamás van a ver. 15 Porque el corazón de este pueblo se ha hecho
+insensible. Se han tapado los oídos y han cerrado los ojos, para que
+nunca vean con los ojos ni oigan con los oídos ni comprendan con el
+corazón ni regresen a Dios y yo los sane’.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
