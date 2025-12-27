@@ -3,7 +3,7 @@ title: "Como nos beneficia la sabiduria divina"
 geometry: left=2cm, right=2cm, top=1cm, bottom=1cm
 ---
 
-La sabiduría queda probada por sus resultados (3 min.)
+La sabiduría queda probada por sus resultados (min. 0)
 ======================================================
 
 Vivimos en el auge de la humanidad. En los últimos 200 años hemos duplicado la
@@ -24,7 +24,7 @@ hay una alternativa: La sabiduría divina que encontramos en la Biblia.
 `Adelante los titulos`, fijémonos en los buenos resultados que obtenemos si nos
 dejamos guiar por ella.
 
-Beneficia a los Jóvenes (5 min.)
+Beneficia a los Jóvenes (min. 3)
 ================================
 
 Los jóvenes que escuchan y obedecen los consejos de Jehová encuentran verdadera
@@ -57,7 +57,7 @@ todo eso.
 días angustiosos y lleguen los años en que vas a decir: “No encuentro en ellos
 ningún placer”
 
-Beneficia a los matrimonios (5 min.)
+Beneficia a los matrimonios (min. 8)
 ====================================
 
 La palabra de Dios dignifica el matrimonio, y ayuda a los cónyuges a disfrutar
@@ -102,7 +102,7 @@ del matrimonio.
 [^Ef533]: 33 Sin embargo, cada uno de ustedes debe amar a su esposa tal como se
 ama a sí mismo. A su vez, la esposa debe tenerle profundo respeto a su esposo.
 
-Nos beneficia cuando afrontamos dificultades (15 min.)
+Nos beneficia cuando afrontamos dificultades (min. 13)
 ======================================================
 
 Nos ayuda a no desesperarnos ...
@@ -113,7 +113,7 @@ Nos ayuda a no desesperarnos ...
 Si tomamos decisiones dejándonos llevar por el pánico, es mas probable que
 cometamos errores. La sabiduría divina nos ayuda a actuar con calma.
 
-### ... Ante los problemas económicos (4 min.)
+### ... Ante los problemas económicos (min. 13:30)
 
 Si vemos que nos va a faltar el dinero para pagar la renta, el trasporte o los
 alimentos, la preocupación no tarda en llegar. Como nos ayuda la sabiduría
@@ -144,7 +144,7 @@ que puedan poner el riesgo nuestra salud espiritual o la de nuestra familia.
 [^Mt633]: Por lo tanto, sigan buscando primero el Reino y la justicia de Dios,
 y entonces recibirán también todas esas cosas
 
-### ... Ante los problemas de salud graves (7 min.)
+### ... Ante los problemas de salud graves (min. 17:30)
 
 Los enfermos son un grupo especialmente vulnerable. Y en este mundo cruel,
 mucho en lugar de tenerles compasión, ven una oportunidad de de hacer dinero.
@@ -204,7 +204,7 @@ acerca.
 Confiamos en que Jehová conoce nuestras circunstancias ...
 ---------------------------------------------------------
 
-### ... Ante periodos de estrés o soledad (3:30 min.)
+### ... Ante periodos de estrés o soledad (min. 24:30)
 
 La soltería, el divorcio o la perdida de un ser querido pueden despertar
 sentimientos de soledad.
@@ -231,8 +231,8 @@ confiando en que el nos consuela.
 [^Sal5522]: 22 Arroja tu carga sobre Jehová, y él te sostendrá. Jamás permitirá
 que caiga el justo
 
-Jehová nos ayuda a adquirir sabiduría (2 min.)
-==============================================
+Jehová nos ayuda a adquirir sabiduría (min. 28)
+===============================================
 
 La sabiduría divina es muy beneficiosa. Que tenemos que hacer? **Lea Santiago
 1:5**[^St15]. Pidámosle a Jehová sabiduría, confiemos en que es la mejor guía.
