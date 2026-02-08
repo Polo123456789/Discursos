@@ -42,11 +42,13 @@ felicidad y éxito. Jehová desea que nosotros seamos felices: **Lea Eclesiasté
 
 **Lea Eclesiastés 12:1**[^Ec121]. Tenemos que tener presente el propósito que
 Jehová tiene para nosotros. Si dedicamos nuestra juventud a servir a Jehová
-tendremos una dirección clara, disfrutaremos del compañerismo de amigos
-verdaderos que encontraremos en la organización, nos protegemos de los peligros
-de este mundo, gozaremos de tener una amistad estrecha con nuestro Creador,
-y en virtud de la promesa del nuevo mundo y la vida eterna, si nos mantenemos
-en este camino en el futuro tendremos el éxito asegurado.
+tendremos:
+
+* Una dirección clara
+* Amigos verdaderos que encontraremos en la organización
+* Nos protegemos de los peligros de este mundo
+* Gozaremos de tener una amistad estrecha con nuestro Creador,
+* Disfrutaremos de vida eterna en el nuevo mundo
 
 [^Ec119]: 9 Joven, disfruta de tu juventud, y que tu corazón esté feliz
 mientras seas joven. Sigue los caminos de tu corazón y vete adonde te lleven
@@ -61,23 +63,10 @@ Beneficia a los matrimonios (min. 8)
 ====================================
 
 La palabra de Dios dignifica el matrimonio, y ayuda a los cónyuges a disfrutar
-de ese regalo. Actualmente el matrimonio lo conforman 2 personas imperfectas,
-lo que hace imposible que no surjan problemas o desacuerdos en algún momento.
-Como ayuda la sabiduría divina a los casados a mantener la unidad?
+de ese regalo. Como lo hace?
 
-**Lea Efesios 5:33**[^Ef533]. Los cónyuges se tienen que mostrar amor
-y respeto, estas 2 cualidades nos tienen que llevar a mostrar humildad.
-
-* La humildad es la mejor herramienta para resolver los conflictos, porque nos
-  impulsa a pedir perdón
-* Hay ocasiones en las que decir "lo siento" es mucho mas importante que decir
-  "te quiero".
-* La humildad también nos ayuda a fijarnos mas en las virtudes que en los
-  defectos de nuestra pareja.
-
-El consejo de mostrarnos amor y respeto no solo nos ayuda a lidiar con los
-desacuerdos, también fortalece nuestra relación. La Despertad no 6 del 2016 da
-los siguientes consejos:
+En primer lugar, ayuda a los conyuges a fortalecer su relación, **Lea Efesios
+5:33**[^Ef533]. La Despertad no 6 del 2016 da los siguientes consejos:
 
 * Tenemos que prestar atención a nuestras palabras
   * Revelo un estudio que los matrimonios felices hacen 5 comentarios
@@ -86,6 +75,20 @@ los siguientes consejos:
     positivo por cada negativo
 * Tenemos que prestar atención a nuestras acciones, tenemos que procurar hacer
   cosas uno por el otro.
+
+Actualmente el matrimonio lo conforman 2 personas imperfectas,
+lo que hace imposible que no surjan problemas o desacuerdos en algún momento.
+Como ayuda la sabiduría divina a los casados a mantener la unidad?
+
+Los cónyuges se tienen que mostrar amor y respeto, estas 2 cualidades nos
+tienen que llevar a mostrar humildad.
+
+* La humildad es la mejor herramienta para resolver los conflictos, porque nos
+  impulsa a pedir perdón
+* Hay ocasiones en las que decir "lo siento" es mucho mas importante que decir
+  "te quiero".
+* La humildad también nos ayuda a fijarnos mas en las virtudes que en los
+  defectos de nuestra pareja.
 
 Otra forma en la que fortalece nuestra relación es fomentando la buena
 comunicación. Ambos cónyuges tienen que sentirse libres de expresar sus
