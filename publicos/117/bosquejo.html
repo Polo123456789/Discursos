@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>CÓMO VENCER EL MAL CON EL BIEN</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">CÓMO VENCER EL MAL CON EL BIEN</h1>
+</header>
+<!-- Recalque lo sabio y práctico que es vencer el mal con el bien. Muestre que
+a menudo podemos evitar el mal, o por lo menos hacer frente a situaciones malas
+cuando obramos con buen juicio
+
+* A todos nos afecta el mal.
+* Que suframos mal es inevitable porque ...
+    * ... Satanás es quien controla este mundo (1 Juan 5:19).
+    * ... Todos hemos heredado el pecado de Adán (Romanos 5:12, 7:18). Por esto
+      mismo incluso podemos parar haciendo el mal a otros.
+    * ... A todos nos puede llegar un "suceso imprevisto" (Eclesiastés 9:11).
+* Aceptando que es inevitable que suframos males, surge la pregunta: Como le
+  podemos hacer frente?
+    * Podemos minimizar o incluso evitar ciertos males si somos prudentes
+    (Lea Proverbios 22:3).
+    * Podemos "vencer el mal con el bien" (Lea Romanos 12:21).
+        * Igual que tomar una medicina puede aliviar síntomas o curar una
+          enfermedad, hacer el bien puede ayudarnos a afrontar o incluso
+          a sobrellevar un mal.
+        * Ejemplos:
+            * Ante la persecución (Lea Romanos 12:20).
+            * Cuando se nos ofende (Lea Colosenses 3:12-14).
+            * Nos aleja de las malas compañías (Lea Proverbios 13:20).
+            * Nos aleja del amor al dinero (Lea Mateo 6:33, 34).
+            * *Si veo que voy mal de tiempo agregamos otra aquí*
+* Hacer el bien no es fácil, vale la pena? Si porque:
+    * Seremos mas felices
+    * Agradaremos a Dios
+    * Tendremos la recompensa de la vida eterna (Lea Salmo 37:27)  -->
+<h1 id="a-todos-nos-afecta-el-mal-min.-0">A todos nos afecta el mal
+(Min. 0)</h1>
+<ul>
+<li>A todos nos afecta el mal.
+<ul>
+<li>Problemas de salud, accidentes, desastres naturales, decepciones,
+injusticias, persecución, etc.</li>
+</ul></li>
+<li>Que suframos mal es inevitable porque …
+<ul>
+<li>… Satanás es quien controla este mundo (1 Juan 5:19).</li>
+<li>… Todos hemos heredado el pecado de Adán (Romanos 5:12, 7:18). Por
+esto mismo incluso podemos parar haciendo el mal a otros.</li>
+<li>… A todos nos puede llegar un “suceso imprevisto” (Eclesiastés
+9:11).</li>
+</ul></li>
+</ul>
+<h1 id="hagámosle-frente-al-ser-prudentes-min.-2">Hagámosle frente al
+ser prudentes (Min. 2)</h1>
+<ul>
+<li>Podemos minimizar o incluso evitar ciertos males si somos prudentes
+(Lea Proverbios 22:3<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>).
+<ul>
+<li>Ej. No somos ostentosos con nuestras pertenencias, así evitamos ser
+blanco de ladrones.</li>
+</ul></li>
+</ul>
+<p>Lastimosamente, hay males que no podemos evitar, como la muerte de un
+ser querido. Como podemos hacerles frente?</p>
+<h1 id="hagámosle-frente-venciendo-el-mal-con-el-bien-min.-4">Hagámosle
+frente venciendo el mal con el bien (Min. 4)</h1>
+<ul>
+<li>Podemos “vencer el mal con el bien” (<strong>Lea Romanos
+12:21</strong><a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a>).
+<ul>
+<li>Igual que tomar una medicina puede aliviar síntomas o curar una
+enfermedad, hacer el bien puede ayudarnos a afrontar o incluso a
+sobrellevar un mal.</li>
+</ul></li>
+</ul>
+<h2 id="ante-la-persecución-min.-6">Ante la persecución (Min. 6)</h2>
+<ul>
+<li>Aunque en Guatemala nuestra obra no este proscrita, aun sufrimos de
+persecución.
+<ul>
+<li>Perspicacia:
+<ul>
+<li>“Hostigamiento o maltrato al que se somete a una persona o grupo
+debido a su posición social, raza o ideología”</li>
+<li>“La persecución adopta diversas formas. Puede limitarse al abuso
+verbal, la burla y los insultos.”</li>
+</ul></li>
+<li>Ejemplos:
+<ul>
+<li>Sufrimos maltratos en el servicio</li>
+<li>Sufrimos burlas y rechazos en la escuela, en la universidad y en el
+trabajo.</li>
+<li>Incluso podemos podemos sufrir de oposición de parte de nuestra
+familia.</li>
+</ul></li>
+</ul></li>
+<li>Podemos aguantar la persecución imitando a los apóstoles (Hechos
+5:40, 41).
+<ul>
+<li>Los amenazan, los golpean, y como salen ellos? “Felices porque Dios
+los había considerado dignos”.</li>
+<li>No nos gusta que nos maltraten, pero si sentimos satisfacción por
+habernos mantenido íntegros y por agradar a Dios. Centrarnos en eso nos
+ayudara a aguantar.</li>
+</ul></li>
+<li>Como vencemos la persecución con el bien? (<strong>Lea Romanos
+12:20</strong><a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a>).
+<ul>
+<li>No devolvemos el maltrato, sino que respondemos con apacibilidad. Y
+si tenemos la oportunidad de mostrar amor, lo hacemos.</li>
+<li>Porque? Así ablandamos el corazón de nuestro agresor
+<ul>
+<li>No habla de amontonar brasas literalmente</li>
+<li>El texto alude a un método antiguo de fundición, se colocaba el
+metal entre 2 capas de brasas para fundirlo y separar las
+impurezas.</li>
+</ul></li>
+<li>También damos testimonio ante el mundo de que somos diferentes,
+somos siervos de Dios.</li>
+</ul></li>
+</ul>
+<h2 id="cuando-se-nos-ofende-min.-11">Cuando se nos ofende (Min.
+11)</h2>
+<ul>
+<li>Todos somos imperfectos. Es inevitable que en algún momento
+ofendamos a alguno de nuestros hermanos, o que nos ofendan a
+nosotros.</li>
+<li>Si nos quedamos ofendidos:
+<ul>
+<li>Dañamos nuestra relación con nuestro hermano</li>
+<li>Podemos llegar a dudar de si estamos en la organización de Dios</li>
+<li>Nos llenamos de amargura y rencor, nos hacemos daño a nosotros
+mismos</li>
+<li>Podemos llegar a dividir a la congregación</li>
+</ul></li>
+<li>Como vencemos esto con el bien? (<strong>Lea Colosenses
+3:13-14</strong><a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a>)
+<ul>
+<li>Perdonando de corazón</li>
+<li>Es posible que tengamos toda la razón para estar ofendidos, pero aun
+así tenemos que perdonar.</li>
+<li>Se compara con el perdón de Dios. Si el hace que nuestros pecados
+rojos como la escarlata sean blancos como la nieve (Isaías 1:18). No
+podemos imitar el perdón de Jehová?</li>
+</ul></li>
+<li>Mostrar amor nos ayuda a unirnos mas a Jehová, a nuestro hermano, y
+a la congregación.</li>
+</ul>
+<p>Vencer el mal con el bien no solo se refiere a como reaccionamos ante
+malas situaciones. También se refiere a cambios que podríamos hacer en
+nuestra personalidad para evitar causarnos daño a nosotros o a
+otros.</p>
+<h2 id="nos-aleja-de-las-malas-compañías-min.-16">Nos aleja de las malas
+compañías (Min. 16)</h2>
+<ul>
+<li>Las malas compañías son peligrosas
+<ul>
+<li>Proverbios 22:25, “no sea que aprendas a andar por sus caminos”</li>
+<li>Podemos aprender malas costumbres</li>
+<li>Pueden acarrearnos calamidad</li>
+</ul></li>
+<li>Como vencemos esto con el bien? (<strong>Lea Proverbios
+13:20a</strong><a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a>)
+<ul>
+<li>Como sabemos que nuestros amigos son “sabios”?
+<ul>
+<li>Tenemos que buscar amistades con buenas cualidades (Compare con
+Gálatas 5:22, 23)</li>
+<li>Tenemos que buscar amistades que nos acerquen a Jehová</li>
+</ul></li>
+<li>Entre estas buenas compañías encontraremos amigos verdaderos
+(Proverbios 17:17). Amigos que nos apoyaran en los momentos
+difíciles.</li>
+<li>Estas amistades pueden ser de cualquier edad y venir de distintas
+circunstancias</li>
+</ul></li>
+</ul>
+<h2 id="nos-aleja-del-amor-al-dinero-min.-21">Nos aleja del amor al
+dinero (Min. 21)</h2>
+<ul>
+<li>El amor al dinero es peligroso
+<ul>
+<li>No esta garantizado, “ni los inteligentes tienen siempre riquezas”
+(Eclesiastés 9:11).</li>
+<li>1 Timoteo 6:9, “los que están decididos a ser ricos caen en
+tentaciones”
+<ul>
+<li>Nos puede llevar a olvidar los principios bíblicos</li>
+<li>Incluso nos puede llevar a practicas fraudulentas o a aprovecharnos
+de nuestros hermanos</li>
+</ul></li>
+<li>No servirá de nada cuando llegue el fin de este sistema de
+cosas</li>
+</ul></li>
+<li>Como vencemos esto con el bien? (<strong>Lea Mateo 6:33,
+34</strong><a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a>)
+<ul>
+<li>Tenemos que aprender a estar contentos con lo necesario.</li>
+<li>Para beneficiarnos de esta promesa, tenemos que seguir las
+instrucciones:
+<ul>
+<li>Buscamos primero el Reino de Dios cuando trabajamos por sus
+intereses. En este momento, el propósito de Jehová para nosotros es que
+llevemos las buenas nuevas del Reino a otros.</li>
+<li>Buscamos primero la justicia de Dios cuando nos esforzamos por vivir
+de acuerdo a sus elevadas normal morales.</li>
+</ul></li>
+<li>Como beneficio, no nos preocuparemos en exceso por el futuro, porque
+sabemos que Jehová se encargara de proveernos lo necesario.</li>
+</ul></li>
+</ul>
+<h1 id="hacer-el-bien-vale-la-pena-min.-26">Hacer el bien vale la pena
+(Min. 26)</h1>
+<ul>
+<li>Hacer el bien no es fácil, vale la pena? Si porque:
+<ul>
+<li>Seremos mas felices</li>
+<li>Agradaremos a Dios</li>
+<li>Tendremos la recompensa de la vida eterna (<strong>Lea Salmo
+37:27</strong><a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a>)</li>
+</ul></li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>3 El prudente ve el peligro y se esconde, pero los
+inexpertos siguen adelante y sufren las consecuencias.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>No te dejes vencer por el mal, sino sigue venciendo el
+mal con el bien.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Más bien, “si tu enemigo tiene hambre, aliméntalo; si
+tiene sed, dale algo de beber; porque haciendo esto amontonarás brasas
+ardientes sobre su cabeza”<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>13 Sigan soportándose unos a otros y perdonándose con
+generosidad incluso si alguno tiene una razón para quejarse de otro.
+Jehová los perdonó con generosidad a ustedes, así que hagan ustedes
+igual. 14 Pero, además de todo esto, vístanse de amor, porque es un lazo
+de unión perfecto.<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>El que anda con los sabios se hará sabio<a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>33 ”Por lo tanto, sigan buscando primero el Reino y la
+justicia de Dios, y entonces recibirán también todas esas cosas. 34 Así
+que nunca se angustien por el día siguiente, porque el día siguiente
+traerá sus propias preocupaciones. Bastante hay con los problemas de
+cada día.<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>27 Apártate del mal y haz el bien, y permanecerás para
+siempre.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
