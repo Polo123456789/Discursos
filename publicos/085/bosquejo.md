@@ -89,7 +89,9 @@ Hay buenas nuevas! (min. 15)
             * Tanto Noe como los cristianos trataron de advertir a otros
 * Disfrutaremos de muchas bendiciones en el nuevo mundo
 
-[^sal371011]: 
+[^sal371011]: 10 Solo un poco más, y los malvados ya no existirán; mirarás
+adonde estaban, y ya no estarán allí. 11 Pero los mansos heredarán la tierra
+y disfrutarán plenamente de abundante paz.
 
 [^gen622]: Así que Noé hizo todo lo que Dios le había mandado. Lo hizo tal como
 él había dicho.
