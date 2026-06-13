@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>BUENAS NUEVAS EN UN MUNDO VIOLENTO</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">BUENAS NUEVAS EN UN MUNDO VIOLENTO</h1>
+</header>
+<h1 id="violento-califica-bien-a-este-mundo-min.-0">‘Violento’ califica
+bien a este mundo (min. 0)</h1>
+<ul>
+<li>“Sera seguro salir a pasear de noche?”</li>
+<li>La violencia ya se ha vuelto parte de nuestras vidas.
+<ul>
+<li>Todos los días vemos noticias de actos delictivos. Y ya no nos
+afecta, se ha vuelto algo normal.</li>
+<li>Afecta a donde vamos, a que horas lo hacemos, y nuestro
+comportamiento en general</li>
+<li>Todos hemos sido, o conocemos a alguien que ha sido victima de la
+violencia.</li>
+</ul></li>
+<li>A donde miremos, en todo el mundo hay violencia</li>
+<li>Puede que nos sintamos como Job, <strong>lea Job 19:7</strong><a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>.</li>
+<li>Introduzca los temas</li>
+</ul>
+<h1 id="cuales-son-los-antecedentes-de-la-violencia-min.-4">Cuales son
+los antecedentes de la violencia? (min. 4)</h1>
+<ul>
+<li>La historia nos ayuda a entender su causa hoy</li>
+<li>En los días de Noe <code>Imagen 1</code>
+<ul>
+<li>Los ángeles caídos, demonios, tuvieron hijos con las hijas de los
+hombres</li>
+<li>Los enfilan, hombres de mucho poder, abusaban de este y causaban
+mucha violencia</li>
+<li>Se les admiraba, por lo que la gente los imitaba</li>
+</ul></li>
+<li>Año 70 e.c, Jerusalén bajo el imperio romano <code>Imagen 2</code>
+<ul>
+<li>Surgen sectas que promovían la rebelión, los conflictos entre sectas
+eran causa de violencia</li>
+<li>Estas sectas también persiguieron a los cristianos</li>
+</ul></li>
+<li><strong>Santiago 3:15, 16</strong><a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
+Las causas de la violencia son:
+<ul>
+<li>La influencia de Satanás y sus demonios.
+<ul>
+<li>Entretenimiento -&gt; de-sensibiliza y promueve</li>
+</ul></li>
+<li>La imperfección que hemos heredado</li>
+</ul></li>
+</ul>
+<h1 id="el-punto-de-vista-de-dios-min.-10">El punto de vista de Dios
+(min. 10)</h1>
+<ul>
+<li><strong>Lea Salmo 11:5</strong><a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a></li>
+<li>Significa esto que Dios odia a este mundo?
+<ul>
+<li>Pensemos en los Ninivitas</li>
+<li>Les envió a Jonás para que “dejen su mal camino y la violencia que
+practican” (Jon 3:8)</li>
+<li>Nosotros hoy tenemos una tarea similar a la de Jonás.</li>
+</ul></li>
+<li>Pensamos igual que Dios?
+<ul>
+<li>Puede ser difícil si a los violentos les va bien.</li>
+<li><strong>Lea Proverbios 3:31, 32</strong><a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.
+<ul>
+<li>Las bendiciones de Jehová son muy superiores</li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id="hay-buenas-nuevas-min.-15">Hay buenas nuevas! (min. 15)</h1>
+<ul>
+<li>Jehová esta al tanto de la violencia actual (Salmo 11:5)</li>
+<li>Jehová pronto le pondrá fin a la violencia (<strong>Lea Salmo 37:10,
+11</strong><a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a>)</li>
+<li>Podemos asegurarnos sobrevivir al fin del mundo violento
+<ul>
+<li>Noe fue obediente <code>Imagen 3</code>
+<ul>
+<li>Era un trabajo largo (unos 50 años), difícil, desde 0, sufrió
+burlas. Durante todo ese tiempo tenia que seguir manteniendo a su
+familia.</li>
+<li>A pesar de las dificultades “Noe hizo todo lo que dios le había
+mandado” (<strong>Lea Génesis 6:22</strong><a href="#fn6"
+class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a>)</li>
+</ul></li>
+<li>Los Judíos tenían que huir de Jerusalén (<strong>Lea Lucas 21:20,
+21</strong><a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a>)
+<ul>
+<li><code>Imagen 4</code></li>
+<li>Tenían que dejar la vida que tenían en Jerusalén, sus hogares,
+trabajos y hasta familias</li>
+<li><strong>Tenían que estar atentos a la señal</strong></li>
+</ul></li>
+<li>Que aprendemos nosotros?
+<ul>
+<li>Tenemos que estar atentos
+<ul>
+<li>Vivimos en los últimos días</li>
+</ul></li>
+<li>Tenemos que ser obedientes</li>
+<li>Tenemos que hacer el bien
+<ul>
+<li>Tanto Noe como los cristianos trataron de advertir a otros</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Disfrutaremos de muchas bendiciones en el nuevo mundo</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>7  ¡Oigan! Estoy gritando ‘¡Violencia!’, pero nadie me
+responde; a gritos sigo pidiendo ayuda, pero no hay justicia.<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>15 Esta no es la sabiduría que viene de arriba; es
+terrenal, animal, demoniaca. 16 Porque, donde hay celos y un espíritu
+conflictivo, también habrá desorden y todo tipo de cosas malas.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>5 Jehová examina tanto al justo como al malvado; él odia
+a todo el que ama la violencia.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>31 No envidies al hombre violento ni decidas andar por
+ninguno de sus caminos, 32 porque Jehová detesta a las personas
+retorcidas, pero tiene una estrecha amistad con las que son rectas.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"></li>
+<li id="fn6"><p>Así que Noé hizo todo lo que Dios le había mandado. Lo
+hizo tal como él había dicho.<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>20  ”Ahora bien, cuando vean a Jerusalén rodeada de
+ejércitos acampados, sepan entonces que se ha acercado su devastación.
+21  Entonces, los que estén en Judea, que huyan a las montañas; los que
+estén en medio de Jerusalén, que se vayan de allí, y los que estén en el
+campo, que no entren en ella.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
