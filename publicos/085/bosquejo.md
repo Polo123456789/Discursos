@@ -27,7 +27,7 @@ Cuales son los antecedentes de la violencia? (min. 4)
 * La historia nos ayuda a entender su causa hoy
 * En los días de Noe `Imagen 1`
     * Los ángeles caídos, demonios, tuvieron hijos con las hijas de los hombres
-    * Los enfilan, hombres de mucho poder, abusaban de este y causaban mucha
+    * Los Nefilim, hombres de mucho poder, abusaban de este y causaban mucha
       violencia
     * Se les admiraba, por lo que la gente los imitaba
 * Año 70 e.c, Jerusalén bajo el imperio romano `Imagen 2`
