@@ -2,6 +2,10 @@
 title: "BUENAS NUEVAS EN UN MUNDO VIOLENTO"
 ---
 
+<!--
+CANCIÓN 122 ¡Mantengámonos firmes, inmovibles!
+-->
+
 'Violento' califica bien a este mundo (min. 0)
 ==============================================
 
