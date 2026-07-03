@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>¿Ha encontrado usted una perla muy valiosa?</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <script>
+  	// @ts-check
+
+  	/**
+  	* @param {string} triggerId
+  		 * @param {string} content
+  		 * @returns {void}
+  		 */
+  	function openContentInModal(triggerId, content) {
+  			// Create and style the modal container
+  			const modal = document.createElement('div');
+  			modal.id = 'myModal';
+  			modal.style.display = 'none';
+  			modal.style.position = 'fixed';
+  			modal.style.zIndex = '1';
+  			modal.style.left = '0';
+  			modal.style.top = '0';
+  			modal.style.width = '100%';
+  			modal.style.height = '100%';
+  			modal.style.overflow = 'auto';
+  			modal.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  			modal.style.paddingTop = '60px';
+
+  			// Create and style the modal content
+  			const modalContent = document.createElement('div');
+  			modalContent.style.backgroundColor = '#fefefe';
+  			modalContent.style.margin = '5% auto';
+  			modalContent.style.padding = '20px';
+  			modalContent.style.border = '1px solid #888';
+  			modalContent.style.width = '80%';
+
+  			// Create and style the close button
+  			const closeButton = document.createElement('span');
+  			closeButton.innerHTML = '&times;';
+  			closeButton.style.color = '#aaa';
+  			closeButton.style.float = 'right';
+  			closeButton.style.fontSize = '28px';
+  			closeButton.style.fontWeight = 'bold';
+  			closeButton.style.cursor = 'pointer';
+
+  			closeButton.onmouseover = function() {
+  					closeButton.style.color = 'black';
+  					closeButton.style.textDecoration = 'none';
+  				};
+
+  			closeButton.onmouseout = function() {
+  					closeButton.style.color = '#aaa';
+  				};
+
+  			// Create the container for the modal content
+  			const contentContainer = document.createElement('div');
+  			contentContainer.id = 'modalContent';
+  			contentContainer.innerHTML = content;
+
+  			// Append elements to the modal
+  			modalContent.appendChild(closeButton);
+  			modalContent.appendChild(contentContainer);
+  			modal.appendChild(modalContent);
+  			document.body.appendChild(modal);
+
+  			const triggerElement = document.getElementById(triggerId);
+
+  			// Function to open the modal
+  			function openModal(e) {
+  					e.preventDefault();
+  					modal.style.display = 'block';
+  				}
+
+  			// Function to close the modal
+  			function closeModal() {
+  					modal.style.display = 'none';
+  				}
+
+  			// Event listener to open the modal when the trigger element is clicked
+  			triggerElement.addEventListener('click', openModal);
+
+  			// Event listener to close the modal when the close button is clicked
+  			closeButton.addEventListener('click', closeModal);
+
+  			// Event listener to close the modal when clicking outside of the modal content
+  			window.addEventListener('click', function(event) {
+  					if (event.target == modal) {
+  							closeModal();
+  						}
+  				});
+  		}
+
+  	document.addEventListener('DOMContentLoaded', function() {
+  			const footnotes = document.querySelectorAll(".footnotes li")
+
+  			footnotes.forEach((footnote) => {
+  					const backlink = footnote.querySelector("a.footnote-back")
+  					const id = backlink?.getAttribute("href")?.replace("#", "")
+  					const content = footnote.innerHTML
+  					if (id) {
+  							openContentInModal(id, content)
+  						}
+  				})
+  		});
+  </script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">¿Ha encontrado usted una perla muy valiosa?</h1>
+</header>
+<!-- Cantico 23 -->
+<h2
+id="dónde-encontrar-solución-a-los-problemas-de-la-humanidad-min.-0">¿Dónde
+encontrar solución a los problemas de la humanidad? (min. 0)</h2>
+<ul>
+<li>Todos tenemos problemas, hacemos lo que podemos, pero no podemos
+solucionar todo por completo</li>
+<li>Jesús enseñó que solo el Reino puede resolver todos los problemas.
+<ul>
+<li>También nos enseñó lo valioso que es para nosotros (<strong>Lea Mat
+13:44-46</strong><a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>)</li>
+<li><code>[2 imagenes, narre los ejemplos]</code></li>
+<li>Ambos hacen sacrificios por algo valioso.</li>
+</ul></li>
+<li>Estos ejemplos nos animan a pesar que estamos dispuestos a hacer por
+el Reino.</li>
+<li>Para ayudarnos, analizaremos cada parte de esta ilustración.</li>
+</ul>
+<h2 id="qué-es-el-reino-de-los-cielos-min.-4">¿Qué es “El reino de los
+cielos”? (min. 4)</h2>
+<ul>
+<li>Fue el tema principal del que habló Jesucristo.</li>
+<li>Es un gobierno que Dios estableció en el cielo y que en el futuro
+gobernará la tierra.
+<ul>
+<li>¿Quién es el Rey? Jesucristo (Ap 11:15<a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a>)</li>
+<li>¿Quiénes son sus súbditos? Quienes temen a Dios y le obedecen.
+<ul>
+<li>Dios quiere que todos lleguen a ser súbditos de su reino.</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="por-qué-es-tan-valiosa-la-verdad-del-reino-min.-6">¿Por qué es
+tan valiosa la verdad del Reino? (min. 6)</h3>
+<ul>
+<li>Porque el reino cumplirá el propósito de Dios para nosotros</li>
+<li>Jesús nos dio una probadita de lo que hará el Reino.</li>
+<li><em>Desastres naturales:</em> Cruzando el mar de galilea, los
+apóstoles (algunos buenos marineros) enfrentan una tormenta donde
+pensaban que iban a morir.
+<ul>
+<li><strong>Cite Mr 4:39</strong><a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a>, Jesús reprende al mar y
+se calma la tormenta</li>
+</ul></li>
+<li><em>Hambre:</em> <strong>Cite Mat 14:19-21</strong><a href="#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>
+<ul>
+<li>Con 5 panes y 2 pescados alimentó a 15,000 +, y sobraron 12
+cestas!</li>
+</ul></li>
+<li><em>Enfermedades:</em> <strong>Cite Mat 9:35</strong><a href="#fn5"
+class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>
+<ul>
+<li>Jesús curo discapacidades, ciegos, mudos, sordos, paralíticos</li>
+<li>Jesús curo enfermedades, desde fiebre hasta lepra.</li>
+</ul></li>
+<li><em>Muerte:</em> <strong>Cite Lu 7:12-15</strong><a href="#fn6"
+class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>
+<ul>
+<li>Cortejo fúnebre saliendo de Naín -&gt; Consuela a la viuda -&gt;
+Resucita al joven</li>
+<li>No solo puede resucitar, puede curar el daño que deja la muerte en
+quienes aman al difunto.</li>
+</ul></li>
+<li>No solo demostró el poder, nos enseña como entrar a ese reino</li>
+</ul>
+<h2 id="cómo-podemos-comprar-la-verdad-del-reino-min.-13">¿Cómo podemos
+comprar la verdad del Reino? (min. 13)</h2>
+<ul>
+<li>En la ilustración venden todo para comprar el el tesoro que
+encuentran.</li>
+<li>Tenemos que poner el reino en primer lugar (<strong>Cite Mat
+6:33</strong><a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a>)
+<ul>
+<li>Dediquemos tiempo a estudiar sobre él
+<ul>
+<li>Profundizar y estar atentos a los recordatorios</li>
+</ul></li>
+<li>Pongamos en práctica lo que aprendemos
+<ul>
+<li>Pongámonos la nueva personalidad, prediquemos</li>
+<li>Evitemos cualquier cosa que nos impida disfrutar del reino
+(<strong>Cite Gal 5:19-21</strong><a href="#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a>)</li>
+<li>Examinémonos constantemente</li>
+</ul></li>
+<li>Apoyemos el reino a pesar de la oposición de amigos y familia</li>
+</ul></li>
+<li>No es fácil, pero los beneficios que obtendremos valdrán la pena
+(<strong>Lea Lucas 18:29, 30</strong><a href="#fn9" class="footnote-ref"
+id="fnref9" role="doc-noteref"><sup>9</sup></a>)</li>
+</ul>
+<h2 id="compraremos-la-perla-muy-valiosa-min.-20">¿Compraremos la “perla
+muy valiosa”? (min. 20)</h2>
+<ul>
+<li>Los hombres de las ilustraciones fueron felices porque se centraron
+en el valor, no en los sacrificios</li>
+<li>Siervos en el pasado también hicieron sacrificios:
+<strong>Pablo</strong>
+<ul>
+<li>Era fariseo, estudioso, destacaba sobre sus compañeros (Gal
+1:14).</li>
+<li>Abandonó esa carrera prometedora. Cuando lo compara al conocimiento
+del Cristo lo consideró basura (Flp 3:8)</li>
+</ul></li>
+<li>En la actualidad también se encuentra la felicidad poniendo primero
+el Reino.
+<ul>
+<li><code>Video</code></li>
+<li>La felicidad que obtuvieron compenso con creces los sacrificios que
+hicieron</li>
+</ul></li>
+<li>Jesús nos invita con amor a ser sus discípulos
+<ul>
+<li>Ahora es el momento de comprar esta perla, no siempre estará
+disponible.</li>
+<li>Si ya la compramos, “nunca la vendas” (Prov 23:23).
+<ul>
+<li>Atesoremos la verdad, no permitamos que otros asuntos nos
+distraigan</li>
+</ul></li>
+</ul></li>
+<li>Pongamos fe en Dios, porque “nadie que ponga su fe en él será
+decepcionado” (Ro 10:11).</li>
+</ul>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>44 ”El Reino de los cielos es como un tesoro que estaba
+escondido en un campo y que un hombre encontró. El hombre lo volvió a
+esconder y, de la alegría que le dio, fue y vendió todo lo que tenía y
+compró ese campo. 45 ”El Reino de los cielos también es como un
+comerciante viajero que buscaba perlas finas. 46 Al encontrar una perla
+muy valiosa, se fue y enseguida vendió todas las cosas que tenía y la
+compró.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>15 El séptimo ángel tocó su trompeta. Entonces hubo
+fuertes voces en el cielo, que decían: “<mark>El reino del mundo ha
+llegado a ser el Reino de nuestro Señor y de su Cristo</mark>, y él
+reinará para siempre jamás”.<a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>39 Entonces él se levantó, reprendió al viento y le dijo
+al mar: “¡Silencio! ¡Cállate!”. El viento se calmó y todo quedó
+completamente tranquilo.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>19 Entonces les mandó a las multitudes que se sentaran
+en la hierba. Luego tomó los cinco panes y los dos pescados y, mirando
+hacia el cielo, <mark>hizo una oración</mark>. Y, después de partir los
+panes, <mark>se los dio a los discípulos, quienes, a su vez, se los
+dieron a las multitudes</mark>. 20 De modo que todos comieron y quedaron
+satisfechos. Luego <mark>recogieron 12 canastas llenas de los pedazos
+que sobraron</mark>. 21 Comieron unos 5.000 hombres, además de las
+mujeres y los niños.<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>35 Y Jesús comenzó a recorrer todas las ciudades y
+aldeas. Iba enseñando en sus sinagogas, predicando las buenas noticias
+del Reino <mark>curando todo tipo de enfermedades y todo tipo de
+dolencias</mark>.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>12 Al acercarse a la puerta de la ciudad, resulta que
+<mark>estaban sacando a un muerto, el único hijo de una mujer</mark>.
+Además, ella era viuda. También iba con ella una multitud bastante
+grande de la ciudad. 13 Cuando el Señor vio a la mujer, se
+<mark>conmovió profundamente y le dijo: “No llores más”</mark>. 14
+Enseguida se acercó y tocó la camilla funeraria, y los que la llevaban
+se detuvieron. Entonces él dijo: <mark>“Joven, a ti te digo:
+¡levántate!”. 15 El muerto se sentó y empezó a hablar, y Jesús se lo
+entregó a su madre.</mark><a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>33 ”Por lo tanto, <mark>sigan buscando primero el
+Reino</mark> y la justicia de Dios, y entonces recibirán también todas
+esas cosas.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>19 Ahora bien, las obras de la carne son evidentes, y
+son la <mark>inmoralidad sexual</mark>, la impureza, la conducta
+descarada, 20 <mark>la idolatría, el espiritismo</mark>, las
+enemistades, las peleas, los celos, los arrebatos de ira, las riñas, las
+divisiones, la formación de sectas, 21 la envidia, <mark>las
+borracheras, las fiestas descontroladas</mark> y cosas como estas. Les
+aviso, como ya les advertí antes, que los que practican estas cosas no
+heredarán el Reino de Dios.<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>29 Él les dijo: “Les aseguro que no hay nadie que haya
+dejado hogar, esposa, hermanos, padres o hijos por el Reino de Dios 30
+que no reciba mucho más en este tiempo y, en el sistema que viene, vida
+eterna”.<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
