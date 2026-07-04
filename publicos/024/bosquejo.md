@@ -39,7 +39,7 @@ las cosas que tenía y la compró.
 el cielo, que decían: “<mark>El reino del mundo ha llegado a ser el Reino de
 nuestro Señor y de su Cristo</mark>, y él reinará para siempre jamás”.
 
-### ¿Por qué es tan valiosa la verdad del Reino? (min. 6)
+## ¿Por qué es tan valiosa la verdad del Reino? (min. 6)
 
 * Porque el reino cumplirá el propósito de Dios para nosotros
 * Jesús nos dio una probadita de lo que hará el Reino.
@@ -121,7 +121,7 @@ mucho más en este tiempo y, en el sistema que viene, vida eterna”.
 * Siervos en el pasado también hicieron sacrificios: **Pablo**
     * Era fariseo, estudioso, destacaba sobre sus compañeros (Gal 1:14).
     * Abandonó esa carrera prometedora. Cuando lo compara al conocimiento del
-      Cristo lo consideró basura (Flp 3:8)
+      Cristo lo consideró basura (**Lea Flp 3:8**[^flp38])
 * En la actualidad también se encuentra la felicidad poniendo primero el Reino.
     * `Video`
     * La felicidad que obtuvieron compenso con creces los sacrificios que
@@ -132,3 +132,8 @@ mucho más en este tiempo y, en el sistema que viene, vida eterna”.
         * Atesoremos la verdad, no permitamos que otros asuntos nos distraigan
 * Pongamos fe en Dios, porque "nadie que ponga su fe en él será decepcionado"
   (Ro 10:11).
+
+[^flp38]: 8 Es más, considero también que todas las cosas son pérdida debido al
+incalculable valor del conocimiento de Cristo Jesús mi Señor. Por él he
+aceptado la pérdida de todas las cosas y las veo como un montón de basura, para
+ganar a Cristo
