@@ -1,6 +1,6 @@
 ---
 title: "50. Como tomar buenas decisiones"
-author: "Pablo Sanchez, Congregacion Pamplona"
+author: "Pablo Sanchez, Congregacion Castañas"
 date: "Cantico 4, 'Jehová es mi Pastor' (Salmo 23)"
 geometry: margin=1.5cm
 ---
@@ -24,7 +24,7 @@ Estructura del discurso:
 6. Conclusión
 -->
 
-### Jehová Nos Ha Dado Libertad Para Elegir (3 Mins.)
+### Jehová Nos Ha Dado Libertad Para Elegir (min. 0)
 
 En la mayoría de los casos, las buenas decisiones traen resultados, y las malas
 decisiones traen consecuencias.
@@ -52,7 +52,7 @@ este discurso vamos a analizar: Que hacer antes, durante, y después de que
 tengamos que tomar una decisión. Y también hablaremos de la decisión mas
 importante que podemos tomar como cristianos.
 
-### Herramientas Para Que Tomemos Buenas Decisiones (7 Mins.)
+### Herramientas Para Que Tomemos Buenas Decisiones (min. 3)
 
 Antes de que tengamos que tomar una decisión, tenemos que preparamos.
 
@@ -88,7 +88,7 @@ discernimiento te protegerá
 
 Resuma el punto
 
-### ¿Que Pasos Hay Que Seguir ? (10 Mins.)
+### ¿Que Pasos Hay Que Seguir ? (min. 10)
 
 Ya vimos que hacer antes, ahora veamos que hacer mientras estemos tomando una
 decisión.
@@ -141,7 +141,7 @@ orientación experta.
 [^8]: Al hombre todos sus caminos le parecen correctos, pero Jehová examina las
 motivaciones.
 
-### Ponga Manos A La Obra (4 Mins.)
+### Ponga Manos A La Obra (min. 20)
 
 En resumen: *Cumplir*. Se dice muy fácil, pero es difícil. Algunas decisiones
 implican sacrificios, otras nos pueden traer dificultades. Que podemos hacer
@@ -162,12 +162,12 @@ dándoles tanto el deseo como las fuerzas para actuar
 cosecharemos si no nos cansamos
 
 
-### La Decisión Mas Importante (4 Mins.)
+### La Decisión Mas Importante (min. 24)
 
 La decisión mas importante que puede tomar un cristiano es dedicarse a Jehová,
 y demostrarlo públicamente al bautizarse.
 
-Esta no es una decisión fácil **Lea Mateo 16:24[^11]**.
+Esta no es una decisión fácil **Cite Mateo 16:24[^11]**.
 
 [^11]: Entonces Jesús les dijo a sus discípulos: “Si alguien quiere ser mi
 seguidor, que renuncie a sí mismo, que tome su madero de tormento y me siga
@@ -181,7 +181,13 @@ constantemente
   que puede experimentar alguien por ser discípulo de Jesús
 
 Si bien es una decisión que requiere de mucha abnegación, también es una que
-nos traerá muchas bendiciones.
+nos traerá muchas bendiciones **Cite Marcos 10:29, 30**[^mar102930].
+
+[^mar102930]: 29 Jesús les dijo: “Les aseguro que no hay nadie que haya dejado
+hogar, hermanos, hermanas, madre, padre, hijos o campos por mí y por las buenas
+noticias 30 que no reciba ahora, en este tiempo, 100 veces más —casas,
+hermanos, hermanas, madres, hijos y campos, aunque con persecuciones— y, en el
+sistema que viene, vida eterna.
 
 * **Quienes aun no están bautizados** si bien no deben apresurarse, no tienen
   que postergar esta decisión. Si hay algo que los frene, tienen que
@@ -189,7 +195,7 @@ nos traerá muchas bendiciones.
 * **Quienes ya están bautizados** tienen que evaluar si están cumpliendo con
   su dedicación. Y cuando pasen por dificultades, tienen que acudir a Jehová.
 
-### Nuestras Decisiones Son Importantes Para Jehová (2 Mins.)
+### Nuestras Decisiones Son Importantes Para Jehová (min. 28)
 
 Resumir los puntos de antes.
 
